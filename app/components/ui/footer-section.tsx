@@ -34,7 +34,7 @@ export function Footerdemo() {
             <h3 className="mb-4 text-lg font-semibold">Services</h3>
             <nav className="space-y-2 text-sm">
               <Link to="/services/strategy" className="block transition-colors hover:text-primary">
-                Strategy & Consulting
+                AI Strategy & Consulting
               </Link>
               <Link to="/services/infrastructure" className="block transition-colors hover:text-primary">
                 Infrastructure & Engineering
@@ -49,13 +49,13 @@ export function Footerdemo() {
                 Trainings & Upskilling
               </Link>
               <Link to="/services/starter" className="block transition-colors hover:text-primary">
-                Starter Offerings
+                MVP Development & Prototyping
               </Link>
               <Link to="/services/data-science" className="block transition-colors hover:text-primary">
                 Data Science Consulting
               </Link>
               <Link to="/services/data-training" className="block transition-colors hover:text-primary">
-                Data Science Trainings
+                Trainings & Workshops
               </Link>
             </nav>
           </div>
@@ -71,7 +71,7 @@ export function Footerdemo() {
                 Data Science Course
               </Link>
               <Link to="/trainings/machine-learning" className="block transition-colors hover:text-primary">
-                Machine Learning Kurs
+                Machine Learning Course
               </Link>
               <Link to="/trainings/ai" className="block transition-colors hover:text-primary">
                 AI Course
@@ -124,13 +124,10 @@ export function Footerdemo() {
 
           {/* Topics */}
           <div>
-            <h3 className="mb-4 text-lg font-semibold">Topics</h3>
+            <h3 className="mb-4 text-lg font-semibold">Focus Areas</h3>
             <nav className="space-y-2 text-sm">
-              <Link to="/topics/agentic-ai" className="block transition-colors hover:text-primary">
-                Agentic AI
-              </Link>
               <Link to="/topics/generative-ai" className="block transition-colors hover:text-primary">
-                Generative AI Services
+                Generative AI Services - GenAI
               </Link>
               <Link to="/topics/predictive-analytics" className="block transition-colors hover:text-primary">
                 Forecasting and Predictive Analytics
@@ -138,29 +135,35 @@ export function Footerdemo() {
               <Link to="/topics/customer-analytics" className="block transition-colors hover:text-primary">
                 Customer Analytics
               </Link>
+              <Link to="/topics/customer-support" className="block transition-colors hover:text-primary">
+                Customer Support AI
+              </Link>
               <Link to="/topics/nlp" className="block transition-colors hover:text-primary">
                 Natural Language Processing
               </Link>
               <Link to="/topics/computer-vision" className="block transition-colors hover:text-primary">
                 Computer Vision
               </Link>
+              <Link to="/topics/ai-agents" className="block transition-colors hover:text-primary">
+                AI Agents
+              </Link>
+              <Link to="/topics/machine-learning" className="block transition-colors hover:text-primary">
+                Machine Learning
+              </Link>
               <Link to="/topics/deep-learning" className="block transition-colors hover:text-primary">
                 Deep Learning
               </Link>
+              <Link to="/topics/cybersecurity" className="block transition-colors hover:text-primary">
+                AI-Powered Cybersecurity
+              </Link>
+              <Link to="/topics/multimodal" className="block transition-colors hover:text-primary">
+                Multimodal AI Models
+              </Link>
+              <Link to="/topics/chatbots" className="block transition-colors hover:text-primary">
+                ChatBots
+              </Link>
               <Link to="/topics/predictive-maintenance" className="block transition-colors hover:text-primary">
                 Predictive Maintenance
-              </Link>
-              <Link to="/topics/recommendation" className="block transition-colors hover:text-primary">
-                Recommendation Systems
-              </Link>
-              <Link to="/topics/price-optimization" className="block transition-colors hover:text-primary">
-                Price Optimization
-              </Link>
-              <Link to="/topics/frontend" className="block transition-colors hover:text-primary">
-                Frontend Solutions
-              </Link>
-              <Link to="/topics/data-culture" className="block transition-colors hover:text-primary">
-                Data Culture
               </Link>
               <Link to="/topics/chatgpt" className="block transition-colors hover:text-primary">
                 ChatGPT
@@ -168,11 +171,38 @@ export function Footerdemo() {
               <Link to="/topics/sustainable-ai" className="block transition-colors hover:text-primary">
                 Sustainable AI
               </Link>
-              <Link to="/topics/ai-sustainability" className="block transition-colors hover:text-primary">
-                AI for Sustainability
+              <Link to="/topics/rag" className="block transition-colors hover:text-primary">
+                Retrieval Augmented Generation - RAG
               </Link>
-              <Link to="/topics/explainable-ai" className="block transition-colors hover:text-primary">
-                Explainable AI
+              <Link to="/topics/healthcare" className="block transition-colors hover:text-primary">
+                AI in Healthcare
+              </Link>
+              <Link to="/topics/education" className="block transition-colors hover:text-primary">
+                AI in Education
+              </Link>
+              <Link to="/topics/autonomous-vehicles" className="block transition-colors hover:text-primary">
+                Autonomous Vehicles
+              </Link>
+              <Link to="/topics/quantum-ai" className="block transition-colors hover:text-primary">
+                Quantum AI
+              </Link>
+              <Link to="/topics/llm" className="block transition-colors hover:text-primary">
+                Large Language Models - LLM
+              </Link>
+              <Link to="/topics/search-engines" className="block transition-colors hover:text-primary">
+                AI Powered Search Engines
+              </Link>
+              <Link to="/topics/local-ai" className="block transition-colors hover:text-primary">
+                Local AI Models
+              </Link>
+              <Link to="/topics/agentic-ai" className="block transition-colors hover:text-primary">
+                Agentic AI
+              </Link>
+              <Link to="/topics/academic-search" className="block transition-colors hover:text-primary">
+                AI Powered Academic Search
+              </Link>
+              <Link to="/topics/openai" className="block transition-colors hover:text-primary">
+                OpenAI
               </Link>
             </nav>
           </div>
@@ -187,9 +217,8 @@ export function Footerdemo() {
               <p>Martinistraße 62-66</p>
               <p>28195 Bremen</p>
               <p>Tel: 0421 37703470</p>
-              <p>Öffnungszeiten:</p>
-              <p>Geöffnet · Schließt um 18:00</p>
-              <p>Weitere Öffnungszeiten</p>
+              <p>Opening Hours:</p>
+              <p>Open · Closes at 18:00</p>
             </address>
           </div>
 
@@ -224,7 +253,7 @@ export function Footerdemo() {
                 <Tooltip>
                   <TooltipTrigger asChild>
                     <Button variant="outline" size="icon" className="rounded-full" asChild>
-                      <a href="https://linkedin.com/company/capsula" target="_blank" rel="noopener noreferrer">
+                      <a href="https://www.linkedin.com/company/68487962/" target="_blank" rel="noopener noreferrer">
                         <Linkedin className="h-4 w-4" />
                         <span className="sr-only">LinkedIn</span>
                       </a>
