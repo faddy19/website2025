@@ -1,1 +1,67 @@
- 
+{
+  "common": {
+    "getStarted": "Jetzt starten",
+    "learnMore": "Mehr erfahren",
+    "contactUs": "Contact",
+    "subscribe": "Abonnieren"
+  },
+  "navigation": {
+    "services": "Services",
+    "products": "Products",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "KI-gesteuerte Innovation",
+    "description": "Transformieren Sie Ihr Unternehmen mit intelligenter Automatisierung und KI-Lösungen. Erleben Sie die Zukunft des Vertragsmanagements mit modernster Technologie."
+  },
+  "cta": {
+    "title": "Transformieren Sie Ihr Unternehmen",
+    "description": "Erleben Sie die Kraft des KI-gesteuerten Vertragsmanagements",
+    "getStarted": "Jetzt starten",
+    "learnMore": "Mehr erfahren"
+  },
+  "features": {
+    "title": "Unsere Funktionen",
+    "description": "Entdecken Sie, was uns anders macht",
+    "items": {
+      "contracts": {
+        "title": "Intelligentes Vertragsmanagement",
+        "description": "Optimieren Sie Ihre Vertragsprozesse mit unserem intelligenten Managementsystem"
+      },
+      "automation": {
+        "title": "Prozessautomatisierung",
+        "description": "Sparen Sie Zeit und reduzieren Sie Fehler mit automatisierten Workflows"
+      },
+      "analytics": {
+        "title": "Erweiterte Analytik",
+        "description": "Treffen Sie datengestützte Entscheidungen mit unserer umfassenden Analyse"
+      }
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Bleiben Sie verbunden",
+      "description": "Abonnieren Sie unseren Newsletter für die neuesten Updates zu KI und Business-Innovation",
+      "placeholder": "E-Mail eingeben",
+      "button": "Abonnieren"
+    },
+    "company": {
+      "address": "Martinistraße 62-66",
+      "city": "28195 Bremen",
+      "phone": "Tel: 0421 37703470",
+      "hours": {
+        "title": "Öffnungszeiten",
+        "status": "Geöffnet · Schließt um 18:00",
+        "more": "Weitere Öffnungszeiten"
+      }
+    },
+    "legal": {
+      "copyright": "© 2024 capsula.ai. Alle Rechte vorbehalten.",
+      "privacy": "Datenschutzerklärung",
+      "imprint": "Impressum",
+      "cookies": "Cookie-Einstellungen"
+    }
+  }
+} 

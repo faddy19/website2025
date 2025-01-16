@@ -1,1 +1,67 @@
- 
+{
+  "common": {
+    "getStarted": "Get Started",
+    "learnMore": "Learn More",
+    "contactUs": "Contact",
+    "subscribe": "Subscribe"
+  },
+  "navigation": {
+    "services": "Services",
+    "products": "Products",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "AI-Powered Innovation",
+    "description": "Transform your business with intelligent automation and AI solutions. Experience the future of contract management powered by cutting-edge technology."
+  },
+  "cta": {
+    "title": "Transform Your Business",
+    "description": "Experience the power of AI-driven contract management",
+    "getStarted": "Get Started",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Our Features",
+    "description": "Discover what makes us different",
+    "items": {
+      "contracts": {
+        "title": "Smart Contract Management",
+        "description": "Optimize your contract processes with our intelligent management system"
+      },
+      "automation": {
+        "title": "Process Automation",
+        "description": "Save time and reduce errors with automated workflows"
+      },
+      "analytics": {
+        "title": "Advanced Analytics",
+        "description": "Make data-driven decisions with our comprehensive analysis"
+      }
+    }
+  },
+  "footer": {
+    "newsletter": {
+      "title": "Stay Connected",
+      "description": "Join our newsletter for the latest updates in AI and business innovation",
+      "placeholder": "Enter your email",
+      "button": "Subscribe"
+    },
+    "company": {
+      "address": "Martinistraße 62-66",
+      "city": "28195 Bremen",
+      "phone": "Tel: 0421 37703470",
+      "hours": {
+        "title": "Opening Hours",
+        "status": "Open · Closes at 18:00",
+        "more": "More hours"
+      }
+    },
+    "legal": {
+      "copyright": "© 2024 capsula.ai. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "imprint": "Imprint",
+      "cookies": "Cookie Settings"
+    }
+  }
+} 
