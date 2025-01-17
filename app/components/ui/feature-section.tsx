@@ -42,15 +42,15 @@ export function FeatureSection() {
               </h3>
               <div className="grid grid-cols-2 gap-6">
                 <div className="p-6 rounded-xl bg-black/[0.96] text-white border border-white/[0.1] hover:border-white/[0.2] transition-colors text-center">
-                  <p className="text-4xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">200+</p>
+                  <p className="text-4xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-blue-600">50+</p>
                   <p className="text-base text-neutral-300">AI Solutions Deployed</p>
                 </div>
                 <div className="p-6 rounded-xl bg-black/[0.96] text-white border border-white/[0.1] hover:border-white/[0.2] transition-colors text-center">
-                  <p className="text-4xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-purple-600">15+</p>
+                  <p className="text-4xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-purple-600">5+</p>
                   <p className="text-base text-neutral-300">Industries Served</p>
                 </div>
                 <div className="p-6 rounded-xl bg-black/[0.96] text-white border border-white/[0.1] hover:border-white/[0.2] transition-colors text-center">
-                  <p className="text-4xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">50+</p>
+                  <p className="text-4xl font-bold mb-2 bg-clip-text text-transparent bg-gradient-to-r from-green-400 to-green-600">3+</p>
                   <p className="text-base text-neutral-300">Research Papers</p>
                 </div>
                 <div className="p-6 rounded-xl bg-black/[0.96] text-white border border-white/[0.1] hover:border-white/[0.2] transition-colors text-center">
