@@ -9,6 +9,7 @@ import {
 import type { LinksFunction } from "@remix-run/node";
 
 import "./tailwind.css";
+import { CookieBanner } from "./components/ui/cookie-banner";
 
 export const links: LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -69,6 +70,7 @@ export default function App() {
           }
         `}</style>
         <Outlet />
+        <CookieBanner />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />

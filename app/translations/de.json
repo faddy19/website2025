@@ -2,15 +2,17 @@
   "common": {
     "getStarted": "Jetzt starten",
     "learnMore": "Mehr erfahren",
-    "contactUs": "Contact",
-    "subscribe": "Abonnieren"
+    "contactUs": "Kontakt",
+    "subscribe": "Abonnieren",
+    "readMore": "Weiterlesen",
+    "back": "Zurück"
   },
   "navigation": {
-    "services": "Services",
-    "products": "Products",
+    "services": "Dienstleistungen",
+    "products": "Produkte",
+    "research": "Forschung",
     "blog": "Blog",
-    "about": "About",
-    "contact": "Contact"
+    "company": "Unternehmen"
   },
   "hero": {
     "title": "KI-gesteuerte Innovation",
@@ -82,16 +84,76 @@
       "title": "Haftungsausschluss",
       "liabilityContent": {
         "title": "Haftung für Inhalte",
-        "text": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen. Als Diensteanbieter sind wir gemäß § 7 Abs.1 TMG für eigene Inhalte auf diesen Seiten nach den allgemeinen Gesetzen verantwortlich. Nach §§ 8 bis 10 TMG sind wir als Diensteanbieter jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen."
+        "text": "Die Inhalte unserer Seiten wurden mit größter Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte können wir jedoch keine Gewähr übernehmen."
       },
       "liabilityLinks": {
         "title": "Haftung für Links",
-        "text": "Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar."
+        "text": "Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen."
       },
       "copyright": {
         "title": "Urheberrecht",
-        "text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet."
+        "text": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht."
       }
+    }
+  },
+  "cookies": {
+    "mainText": "Wir verwenden Cookies, um Ihr Browsing-Erlebnis zu verbessern, den Website-Verkehr zu analysieren und personalisierte Inhalte bereitzustellen. Durch Klicken auf 'Alle akzeptieren' stimmen Sie der Verwendung von Cookies zu. Sie können Ihre Einstellungen anpassen oder nicht essentielle Cookies ablehnen.",
+    "customize": "Einstellungen anpassen",
+    "acceptAll": "Alle akzeptieren",
+    "declineAll": "Alle ablehnen",
+    "savePreferences": "Einstellungen speichern",
+    "preferences": "Cookie-Einstellungen",
+    "necessary": {
+      "title": "Notwendige Cookies",
+      "description": "Diese Cookies sind für das ordnungsgemäße Funktionieren der Website unerlässlich und können nicht deaktiviert werden."
+    },
+    "analytics": {
+      "title": "Analyse-Cookies",
+      "description": "Diese Cookies helfen uns zu verstehen, wie Besucher mit unserer Website interagieren, und ermöglichen uns, unsere Dienste zu verbessern."
+    },
+    "marketing": {
+      "title": "Marketing-Cookies",
+      "description": "Diese Cookies werden verwendet, um personalisierte Werbung bereitzustellen und deren Effektivität zu messen."
+    },
+    "footer": "Weitere Informationen über die Verwendung von Cookies und Ihrer personenbezogenen Daten finden Sie in unserer",
+    "privacyPolicy": "Datenschutzerklärung"
+  },
+  "community": {
+    "title": "Community Support",
+    "description": "Wir unterstützen innovative Projekte und Organisationen bei der Entwicklung und Implementierung von KI-Lösungen",
+    "eligibility": {
+      "title": "Wer kann teilnehmen?",
+      "startups": {
+        "title": "Startups",
+        "description": "Innovative Startups, die KI-Technologien entwickeln oder implementieren möchten"
+      },
+      "research": {
+        "title": "Forschungseinrichtungen",
+        "description": "Akademische und wissenschaftliche Einrichtungen mit KI-Forschungsprojekten"
+      },
+      "nonprofit": {
+        "title": "Gemeinnützige Organisationen",
+        "description": "Non-Profit-Organisationen, die KI für soziale Wirkung nutzen möchten"
+      }
+    },
+    "offerings": {
+      "title": "Was wir bieten",
+      "resources": {
+        "title": "Ressourcen",
+        "description": "Zugang zu KI-Tools, Infrastruktur und technischen Ressourcen"
+      },
+      "mentorship": {
+        "title": "Mentoring",
+        "description": "Expertenberatung und Unterstützung von erfahrenen KI-Fachleuten"
+      },
+      "network": {
+        "title": "Netzwerk",
+        "description": "Verbindungen zu anderen Innovatoren und potenziellen Partnern"
+      }
+    },
+    "contact": {
+      "title": "Kontakt aufnehmen",
+      "description": "Kontaktieren Sie uns für weitere Informationen zur Unterstützung Ihres Projekts"
     }
   }
 } 

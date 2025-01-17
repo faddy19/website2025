@@ -3,14 +3,16 @@
     "getStarted": "Get Started",
     "learnMore": "Learn More",
     "contactUs": "Contact",
-    "subscribe": "Subscribe"
+    "subscribe": "Subscribe",
+    "readMore": "Read More",
+    "back": "Back"
   },
   "navigation": {
     "services": "Services",
     "products": "Products",
+    "research": "Research",
     "blog": "Blog",
-    "about": "About",
-    "contact": "Contact"
+    "company": "Company"
   },
   "hero": {
     "title": "AI-Powered Innovation",
@@ -82,16 +84,76 @@
       "title": "Disclaimer",
       "liabilityContent": {
         "title": "Liability for Contents",
-        "text": "The contents of our pages were created with great care. However, we cannot guarantee the accuracy, completeness, and timeliness of the content. As a service provider, we are responsible for our own content on these pages according to § 7 para.1 TMG. According to §§ 8 to 10 TMG, however, we are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity."
+        "text": "The contents of our pages were created with great care. However, we cannot guarantee the accuracy, completeness, and timeliness of the content."
       },
       "liabilityLinks": {
         "title": "Liability for Links",
-        "text": "Our offer contains links to external third-party websites, over whose content we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognizable at the time of linking."
+        "text": "Our offer contains links to external third-party websites, over whose content we have no influence. Therefore, we cannot assume any liability for these external contents."
       },
       "copyright": {
         "title": "Copyright",
-        "text": "The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, and any kind of exploitation outside the limits of copyright require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use."
+        "text": "The content and works created by the site operators on these pages are subject to German copyright law."
       }
+    }
+  },
+  "cookies": {
+    "mainText": "We use cookies to enhance your browsing experience, analyze site traffic, and provide personalized content. By clicking 'Accept All', you consent to our use of cookies. You can customize your preferences or decline non-essential cookies.",
+    "customize": "Customize Settings",
+    "acceptAll": "Accept All",
+    "declineAll": "Decline All",
+    "savePreferences": "Save Preferences",
+    "preferences": "Cookie Preferences",
+    "necessary": {
+      "title": "Necessary Cookies",
+      "description": "These cookies are essential for the website to function properly and cannot be disabled."
+    },
+    "analytics": {
+      "title": "Analytics Cookies",
+      "description": "These cookies help us understand how visitors interact with our website, helping us improve our services."
+    },
+    "marketing": {
+      "title": "Marketing Cookies",
+      "description": "These cookies are used to deliver personalized advertisements and track their effectiveness."
+    },
+    "footer": "For more information about how we use cookies and your personal data, please see our",
+    "privacyPolicy": "Privacy Policy"
+  },
+  "community": {
+    "title": "Community Support",
+    "description": "We support innovative projects and organizations in developing and implementing AI solutions",
+    "eligibility": {
+      "title": "Who Can Participate?",
+      "startups": {
+        "title": "Startups",
+        "description": "Innovative startups looking to develop or implement AI technologies"
+      },
+      "research": {
+        "title": "Research Institutions",
+        "description": "Academic and scientific institutions with AI research projects"
+      },
+      "nonprofit": {
+        "title": "Non-Profit Organizations",
+        "description": "Non-profit organizations seeking to leverage AI for social impact"
+      }
+    },
+    "offerings": {
+      "title": "What We Offer",
+      "resources": {
+        "title": "Resources",
+        "description": "Access to AI tools, infrastructure, and technical resources"
+      },
+      "mentorship": {
+        "title": "Mentorship",
+        "description": "Expert guidance and support from experienced AI professionals"
+      },
+      "network": {
+        "title": "Network",
+        "description": "Connections to fellow innovators and potential partners"
+      }
+    },
+    "contact": {
+      "title": "Get in Touch",
+      "description": "Contact us to learn more about supporting your project"
     }
   }
 } 
