@@ -143,15 +143,15 @@ export const ProductItem = ({
   return (
     <Link to={href} className="group block p-4 hover:bg-white/5 rounded-lg transition-colors">
       <div className="flex space-x-4">
-        <img
-          src={src}
-          width={140}
-          height={70}
-          alt={title}
-          className="flex-shrink-0 rounded-md"
-        />
-        <div>
-          <h4 className="text-lg font-medium text-white mb-1 group-hover:text-white/90">
+        <div className="w-[180px] h-[120px] flex-shrink-0 overflow-hidden rounded-lg">
+          <img
+            src={src}
+            alt={title}
+            className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+        <div className="flex-1">
+          <h4 className="text-lg font-medium text-white mb-2 group-hover:text-white/90">
             {title}
           </h4>
           <p className="text-sm text-gray-200 group-hover:text-white">
