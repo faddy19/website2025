@@ -119,12 +119,9 @@ export function Menu({ setActive, children }: { setActive: (item: string | null)
             >
               EN
             </Link>
-            <Link
-              to="/contact"
-              className="inline-flex h-9 items-center justify-center rounded-full bg-white px-6 text-sm font-medium text-black transition-colors hover:bg-white/90"
-            >
+            <a href="mailto:info@capsula.ai" className="text-sm text-gray-200 hover:text-white transition-colors">
               Contact
-            </Link>
+            </a>
           </div>
         </div>
       </div>
