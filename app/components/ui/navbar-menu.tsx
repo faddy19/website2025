@@ -1,22 +1,16 @@
 "use client";
-import React from "react";
+
+import React, { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
 import { Link } from "@remix-run/react";
-import type { LinkProps } from "@remix-run/react";
 import { Logo } from "./logo";
 import { cn } from "../../lib/utils";
-import { useTranslations } from "../../utils/translations";
-
-interface MenuProps extends React.HTMLAttributes<HTMLElement> {
-  setActive: (item: string | null) => void;
-  children: React.ReactNode;
-}
 
 const transition = {
   type: "spring",
-  mass: 0.5,
-  damping: 11.5,
-  stiffness: 100,
+  mass: 0.2,
+  damping: 15,
+  stiffness: 120,
   restDelta: 0.001,
   restSpeed: 0.001,
 };
@@ -27,36 +21,73 @@ export const MenuItem = ({
   item,
   children,
 }: {
-  setActive: (item: string) => void;
+  setActive: (item: string | null) => void;
   active: string | null;
   item: string;
   children?: React.ReactNode;
 }) => {
+  const menuRef = useRef<HTMLDivElement>(null);
+  const contentRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      if (!menuRef.current || !contentRef.current) return;
+      
+      if (active === item) {
+        const menuRect = menuRef.current.getBoundingClientRect();
+        const contentRect = contentRef.current.getBoundingClientRect();
+        
+        // Wider buffer for horizontal movement
+        const horizontalBuffer = 300; // Increased buffer for sides
+        const verticalBuffer = 100;   // Keep original buffer for vertical
+        
+        // Check if mouse is in the main content area (including buffer)
+        const isInMainArea = 
+          e.clientX >= Math.min(menuRect.left, contentRect.left) - horizontalBuffer &&
+          e.clientX <= Math.max(menuRect.right, contentRect.right) + horizontalBuffer &&
+          e.clientY >= menuRect.top - verticalBuffer &&
+          e.clientY <= contentRect.bottom + verticalBuffer;
+        
+        // Close menu if mouse moves too far horizontally or below content
+        if (!isInMainArea) {
+          setActive(null);
+        }
+      }
+    };
+
+    if (active === item) {
+      window.addEventListener('mousemove', handleMouseMove);
+    }
+
+    return () => {
+      window.removeEventListener('mousemove', handleMouseMove);
+    };
+  }, [active, item, setActive]);
+
   return (
-    <div onMouseEnter={() => setActive(item)} className="relative">
+    <div ref={menuRef} onMouseEnter={() => setActive(item)} className="relative">
       <motion.p
-        transition={{ duration: 0.3 }}
-        className="cursor-pointer text-black hover:opacity-[0.9] dark:text-white"
+        transition={{ duration: 0.15 }}
+        className="cursor-pointer text-gray-200 hover:text-white transition-colors"
       >
         {item}
       </motion.p>
       {active !== null && (
         <motion.div
-          initial={{ opacity: 0, scale: 0.85, y: 10 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          transition={transition}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.1 }}
         >
           {active === item && (
-            <div className="absolute top-[calc(100%_+_1.2rem)] left-1/2 transform -translate-x-1/2 pt-4 z-[60]">
-              <motion.div
-                transition={transition}
-                layoutId="active"
-                className="bg-white dark:bg-black backdrop-blur-sm rounded-2xl overflow-hidden border border-black/[0.2] dark:border-white/[0.2] shadow-xl"
-              >
-                <motion.div layout className="w-max h-full p-4">
-                  {children}
-                </motion.div>
-              </motion.div>
+            <div className="fixed inset-0 z-40">
+              <div className="absolute inset-0 bg-black/80 backdrop-blur-md" />
+              <div ref={contentRef} className="relative z-50 w-full">
+                <div className="container mx-auto px-4">
+                  <div className="mt-16 grid grid-cols-2 gap-8">
+                    {children}
+                  </div>
+                </div>
+              </div>
             </div>
           )}
         </motion.div>
@@ -65,63 +96,39 @@ export const MenuItem = ({
   );
 };
 
-export function Menu({ children, className, setActive, ...props }: MenuProps) {
-  const { t, currentLanguage } = useTranslations();
-
+export function Menu({ setActive, children }: { setActive: (item: string | null) => void; children: React.ReactNode }) {
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/50 backdrop-blur-md py-4">
-      <div className="container">
-        <nav
-          onMouseLeave={() => setActive(null)}
-          className={cn(
-            "relative flex items-center justify-between",
-            className
-          )}
-          {...props}
-        >
-          <div className="flex-shrink-0">
-            <Logo />
-          </div>
-
-          <div className="flex-grow flex justify-center">
-            <ul className="flex items-center gap-6">
-              {children}
-            </ul>
-          </div>
-
-          <div className="flex-shrink-0 flex items-center gap-6">
-            <div className="flex items-center gap-2 text-sm">
-              <Link
-                to="?lang=de"
-                className={cn(
-                  "text-gray-400 hover:text-white transition-colors",
-                  currentLanguage === "de" && "text-white font-medium"
-                )}
-              >
-                DE
-              </Link>
-              <span className="text-gray-400">|</span>
-              <Link
-                to="?lang=en"
-                className={cn(
-                  "text-gray-400 hover:text-white transition-colors",
-                  currentLanguage === "en" && "text-white font-medium"
-                )}
-              >
-                EN
-              </Link>
-            </div>
-
+    <div className="relative z-50 bg-black">
+      <div className="container mx-auto px-4">
+        <div className="flex items-center justify-between py-4">
+          <Logo />
+          <nav className="flex items-center space-x-8">
+            {children}
+          </nav>
+          <div className="flex items-center space-x-4">
+            <Link
+              to="?lang=de"
+              className="text-sm text-gray-200 hover:text-white transition-colors"
+            >
+              DE
+            </Link>
+            <span className="text-gray-500">|</span>
+            <Link
+              to="?lang=en"
+              className="text-sm text-gray-200 hover:text-white transition-colors"
+            >
+              EN
+            </Link>
             <Link
               to="/contact"
               className="inline-flex h-9 items-center justify-center rounded-full bg-white px-6 text-sm font-medium text-black transition-colors hover:bg-white/90"
             >
-              {t("navigation.contact")}
+              Contact
             </Link>
           </div>
-        </nav>
+        </div>
       </div>
-    </header>
+    </div>
   );
 }
 
@@ -137,35 +144,33 @@ export const ProductItem = ({
   src: string;
 }) => {
   return (
-    <Link to={href} className="flex space-x-2">
-      <img
-        src={src}
-        width={140}
-        height={70}
-        alt={title}
-        className="flex-shrink-0 rounded-md shadow-2xl"
-      />
-      <div>
-        <h4 className="text-xl font-bold mb-1 text-black dark:text-white">
-          {title}
-        </h4>
-        <p className="text-neutral-700 text-sm max-w-[10rem] dark:text-neutral-300">
-          {description}
-        </p>
+    <Link to={href} className="group block p-4 hover:bg-white/5 rounded-lg transition-colors">
+      <div className="flex space-x-4">
+        <img
+          src={src}
+          width={140}
+          height={70}
+          alt={title}
+          className="flex-shrink-0 rounded-md"
+        />
+        <div>
+          <h4 className="text-lg font-medium text-white mb-1 group-hover:text-white/90">
+            {title}
+          </h4>
+          <p className="text-sm text-gray-200 group-hover:text-white">
+            {description}
+          </p>
+        </div>
       </div>
     </Link>
   );
 };
 
-interface HoveredLinkProps extends Omit<LinkProps, "className"> {
-  children: React.ReactNode;
-}
-
-export const HoveredLink = ({ children, ...rest }: HoveredLinkProps) => {
+export const HoveredLink = ({ children, ...rest }: any) => {
   return (
     <Link
       {...rest}
-      className="text-neutral-700 dark:text-neutral-200 hover:text-black"
+      className="block p-2 text-gray-200 hover:text-white transition-colors"
     >
       {children}
     </Link>
