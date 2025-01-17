@@ -76,6 +76,9 @@ export function Footerdemo() {
               <Link to="/trainings/ai" className="block transition-colors hover:text-primary">
                 AI Course
               </Link>
+              <Link to="/trainings/prompting" className="block transition-colors hover:text-primary">
+                Prompting Course
+              </Link>
             </nav>
           </div>
 
@@ -220,6 +223,11 @@ export function Footerdemo() {
               <p>Opening Hours:</p>
               <p>Open · Closes at 18:00</p>
             </address>
+            <div className="mt-4 text-xs text-muted-foreground">
+              <Link to="/community" className="hover:text-primary">
+                ❤️ We offer free consultations to support students, individuals with limited financial resources, and organizations serving the community
+              </Link>
+            </div>
           </div>
 
           {/* Newsletter */}

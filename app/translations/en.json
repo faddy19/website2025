@@ -63,5 +63,35 @@
       "imprint": "Imprint",
       "cookies": "Cookie Settings"
     }
+  },
+  "imprint": {
+    "title": "Imprint",
+    "responsibleContent": "Responsible for Content",
+    "managingDirector": "Managing Director",
+    "companyHeadquarters": "Company Headquarters",
+    "vatId": "VAT ID: DE334026903",
+    "officeBremen": "Office Bremen",
+    "contact": {
+      "phone": "Phone: +49 421 37703470",
+      "email": "Email: info@capsula.ai",
+      "web": "Web: www.capsula.ai",
+      "openingHours": "Opening Hours",
+      "hours": "Open · Closes at 18:00"
+    },
+    "disclaimer": {
+      "title": "Disclaimer",
+      "liabilityContent": {
+        "title": "Liability for Contents",
+        "text": "The contents of our pages were created with great care. However, we cannot guarantee the accuracy, completeness, and timeliness of the content. As a service provider, we are responsible for our own content on these pages according to § 7 para.1 TMG. According to §§ 8 to 10 TMG, however, we are not obligated to monitor transmitted or stored third-party information or to investigate circumstances that indicate illegal activity."
+      },
+      "liabilityLinks": {
+        "title": "Liability for Links",
+        "text": "Our offer contains links to external third-party websites, over whose content we have no influence. Therefore, we cannot assume any liability for these external contents. The respective provider or operator of the pages is always responsible for the content of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognizable at the time of linking."
+      },
+      "copyright": {
+        "title": "Copyright",
+        "text": "The content and works created by the site operators on these pages are subject to German copyright law. Duplication, processing, distribution, and any kind of exploitation outside the limits of copyright require the written consent of the respective author or creator. Downloads and copies of this site are only permitted for private, non-commercial use."
+      }
+    }
   }
 } 

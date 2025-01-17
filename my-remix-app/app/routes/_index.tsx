@@ -80,25 +80,11 @@ export default function Index() {
               <div className="relative overflow-hidden rounded-3xl bg-black/[0.96] p-8">
                 <div className="text-center space-y-6">
                   <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl text-white">
-                    {t("cta.title")}
+                    Navigating the AI Revolution
                   </h2>
-                  <p className="mx-auto max-w-[600px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                    {t("cta.description")}
+                  <p className="mx-auto max-w-[800px] text-gray-400 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                    Explore the transformative potential of AI technology and discover how it's reshaping industries. From generative AI to machine learning, understand the key developments that matter.
                   </p>
-                  <div className="flex flex-col gap-4 min-[400px]:flex-row justify-center">
-                    <Link
-                      to="/contact"
-                      className="inline-flex h-10 items-center justify-center rounded-md bg-white px-8 text-sm font-medium text-black shadow transition-colors hover:bg-white/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-white disabled:pointer-events-none disabled:opacity-50"
-                    >
-                      {t("cta.getStarted")}
-                    </Link>
-                    <Link
-                      to="/services"
-                      className="inline-flex h-10 items-center justify-center rounded-md border border-white/20 bg-black/50 px-8 text-sm font-medium text-white shadow-sm transition-colors hover:bg-black/80 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-white disabled:pointer-events-none disabled:opacity-50"
-                    >
-                      {t("cta.learnMore")}
-                    </Link>
-                  </div>
                 </div>
               </div>
             </HighlighterItem>
@@ -106,7 +92,6 @@ export default function Index() {
         </div>
 
         <FeatureSection />
-        <Connect />
       </main>
 
       <Footer />

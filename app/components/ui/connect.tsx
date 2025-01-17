@@ -143,7 +143,7 @@ export function Connect() {
                         Schedule a Call
                       </Link>
                       <Link
-                        to="mailto:contact@capsula.ai"
+                        to="mailto:info@capsula.ai"
                         className={cn(
                           "inline-flex h-10 w-10 items-center justify-center rounded-md border border-input bg-background hover:bg-accent hover:text-accent-foreground"
                         )}

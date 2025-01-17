@@ -17,11 +17,10 @@ export function SplineSceneBasic() {
           {/* Left content */}
           <div className="flex-1 p-8 relative z-10 flex flex-col justify-center">
             <h1 className="text-4xl md:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-              AI-Powered Innovation
+              Shaping the Future with AI
             </h1>
             <p className="mt-4 text-neutral-300 max-w-lg">
-              Transform your business with intelligent automation and AI solutions. 
-              Experience the future of contract management powered by cutting-edge technology.
+              We help organizations navigate the AI revolution with expertise and integrity. From strategy to implementation, discover how AI can create lasting value for your business while ensuring responsible innovation.
             </p>
           </div>
 

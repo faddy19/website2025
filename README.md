@@ -1,40 +1,53 @@
-# Welcome to Remix!
+# Capsula.ai Landing Page
 
-- 📖 [Remix docs](https://remix.run/docs)
+This is the official landing page for Capsula.ai, showcasing our AI consulting and development services.
 
-## Development
+## Features
 
-Run the dev server:
+- Modern, responsive design
+- Bilingual support (English/German)
+- Dark/Light mode
+- Service showcase
+- Community support program
+- Legal compliance (Imprint)
 
-```shellscript
+## Tech Stack
+
+- React
+- TypeScript
+- Remix
+- Tailwind CSS
+- Shadcn/ui
+
+## Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/capsula-landing-page.git
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
 npm run dev
 ```
 
-## Deployment
+4. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-First, build your app for production:
+## Available Scripts
 
-```sh
-npm run build
-```
+- `npm run dev` - Starts the development server
+- `npm run build` - Builds the app for production
+- `npm start` - Runs the built app in production mode
 
-Then run the app in production mode:
+## Contributing
 
-```sh
-npm start
-```
+If you'd like to contribute, please fork the repository and make changes as you'd like. Pull requests are warmly welcome.
 
-Now you'll need to pick a host to deploy it to.
+## License
 
-### DIY
-
-If you're familiar with deploying Node applications, the built-in Remix app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-- `build/server`
-- `build/client`
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever css framework you prefer. See the [Vite docs on css](https://vitejs.dev/guide/features.html#css) for more information.
+MIT © Capsula.ai
