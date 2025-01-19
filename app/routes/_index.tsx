@@ -32,13 +32,13 @@ export default function Index() {
                 title="AI Strategy Development"
                 description="Custom AI solutions for enterprise needs"
                 href="/services/ai-strategy"
-                src="/images/shubham-dhage--0eh8fTZLA0-unsplash.jpg"
+                src="/images/navbar/shubham-dhage--0eh8fTZLA0-unsplash.jpg"
               />
               <ProductItem
                 title="Advanced Analytics"
                 description="Data-driven insights and solutions"
                 href="/services/analytics"
-                src="/images/shubham-dhage-y-spk3B7IO0-unsplash.jpg"
+                src="/images/navbar/shubham-dhage-y-spk3B7IO0-unsplash.jpg"
               />
             </div>
           </div>
@@ -60,13 +60,13 @@ export default function Index() {
                 title="AI Innovation Lab"
                 description="Cutting-edge AI research and development"
                 href="/products/innovation"
-                src="/images/robert-clark-srJKzBWP3fg-unsplash.jpg"
+                src="/images/navbar/robert-clark-srJKzBWP3fg-unsplash.jpg"
               />
               <ProductItem
                 title="Enterprise Solutions"
                 description="Scalable AI infrastructure and tools"
                 href="/products/enterprise"
-                src="/images/aakash-dhage-cmosdvcAZgo-unsplash.jpg"
+                src="/images/navbar/aakash-dhage-cmosdvcAZgo-unsplash.jpg"
               />
             </div>
           </div>
@@ -89,7 +89,7 @@ export default function Index() {
                 title="Future of AI"
                 description="Exploring next-generation AI technologies"
                 href="/research/future-ai"
-                src="/images/jan-habarta-KQb_r_4WOVE-unsplash.jpg"
+                src="/images/navbar/jan-habarta-KQb_r_4WOVE-unsplash.jpg"
               />
             </div>
           </div>
@@ -112,7 +112,7 @@ export default function Index() {
                 title="Future of AI"
                 description="Our vision for AI in 2024 and beyond"
                 href="/blog/future-of-ai"
-                src="/placeholder-future.jpg"
+                src="/images/navbar/shubham-dhage-zJkWDcbHli0-unsplash.jpg"
               />
             </div>
           </div>
@@ -135,7 +135,7 @@ export default function Index() {
                 title="Company Growth"
                 description="Our journey and future plans"
                 href="/about/growth"
-                src="/placeholder-growth.jpg"
+                src="/images/navbar/karsten-winegeart-u5XgpCJZTuo-unsplash.jpg"
               />
             </div>
           </div>

@@ -31,13 +31,13 @@ export default function CommunityPage() {
                   title="GenAI Platform"
                   description="Enterprise-grade generative AI platform"
                   href="/products/genai"
-                  src="/images/optimized/shubham-dhage--0eh8fTZLA0-unsplash.jpg"
+                  src="/images/navbar/shubham-dhage--0eh8fTZLA0-unsplash.jpg"
                 />
                 <ProductItem
                   title="AI Analytics Suite"
                   description="Advanced analytics and insights platform"
                   href="/products/analytics"
-                  src="/images/optimized/shubham-dhage-y-spk3B7IO0-unsplash.jpg"
+                  src="/images/navbar/shubham-dhage-y-spk3B7IO0-unsplash.jpg"
                 />
               </div>
             </div>
@@ -80,7 +80,7 @@ export default function CommunityPage() {
                   title="AI Ethics Framework"
                   description="Guidelines for responsible AI development"
                   href="/research/ethics"
-                  src="/images/optimized/robert-clark-srJKzBWP3fg-unsplash.jpg"
+                  src="/images/navbar/robert-clark-srJKzBWP3fg-unsplash.jpg"
                 />
               </div>
             </div>
@@ -103,7 +103,7 @@ export default function CommunityPage() {
                   title="Future of AI"
                   description="Our vision for AI in 2024 and beyond"
                   href="/blog/future-of-ai"
-                  src="/images/optimized/aayush-shah-Gp49ltsswdE-unsplash.jpg"
+                  src="/images/navbar/aayush-shah-Gp49ltsswdE-unsplash.jpg"
                 />
               </div>
             </div>
@@ -126,7 +126,7 @@ export default function CommunityPage() {
                   title="Company Growth"
                   description="Our journey and future plans"
                   href="/about/growth"
-                  src="/images/optimized/masud-merzaye-EXHiq2ox0_g-unsplash.jpg"
+                  src="/images/navbar/masud-merzaye-EXHiq2ox0_g-unsplash.jpg"
                 />
               </div>
             </div>
