@@ -155,5 +155,79 @@
       "title": "Kontakt aufnehmen",
       "description": "Kontaktieren Sie uns für weitere Informationen zur Unterstützung Ihres Projekts"
     }
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "introduction": {
+      "title": "Einführung",
+      "text": "Bei capsula.ai nehmen wir Ihre Privatsphäre ernst. Diese Datenschutzerklärung erläutert, wie wir Ihre Informationen sammeln, verwenden, offenlegen und schützen, wenn Sie unsere Website besuchen. Bitte lesen Sie diese Datenschutzerklärung sorgfältig durch. Wenn Sie mit den Bedingungen dieser Datenschutzerklärung nicht einverstanden sind, greifen Sie bitte nicht auf die Website zu."
+    },
+    "dataCollection": {
+      "title": "Informationen, die wir sammeln",
+      "personalData": {
+        "title": "Personenbezogene Daten",
+        "text": "Wir können personenbezogene Identifikationsinformationen sammeln, einschließlich, aber nicht beschränkt auf:",
+        "items": [
+          "Name",
+          "E-Mail-Adresse",
+          "Telefonnummer",
+          "Unternehmensinformationen"
+        ]
+      },
+      "usageData": {
+        "title": "Nutzungsdaten",
+        "text": "Wir können auch Informationen darüber sammeln, wie auf die Website zugegriffen und wie sie genutzt wird. Diese Nutzungsdaten können Folgendes umfassen:",
+        "items": [
+          "Die Internet-Protokoll-Adresse Ihres Computers",
+          "Browsertyp und -version",
+          "Besuchte Seiten",
+          "Datum und Uhrzeit Ihres Besuchs",
+          "Auf den Seiten verbrachte Zeit"
+        ]
+      }
+    },
+    "dataUsage": {
+      "title": "Wie wir Ihre Informationen verwenden",
+      "text": "Wir verwenden die gesammelten Daten für verschiedene Zwecke:",
+      "items": [
+        "Um unseren Service bereitzustellen und zu pflegen",
+        "Um Sie über Änderungen unseres Services zu informieren",
+        "Um Kundenservice zu bieten",
+        "Um Analysen oder wertvolle Informationen zu sammeln, die uns helfen, unseren Service zu verbessern",
+        "Um die Nutzung unseres Services zu überwachen",
+        "Um technische Probleme zu erkennen, zu verhindern und zu beheben"
+      ]
+    },
+    "cookies": {
+      "title": "Cookies und Tracking-Technologien",
+      "text1": "Wir verwenden Cookies und ähnliche Tracking-Technologien, um Aktivitäten auf unserer Website zu verfolgen und bestimmte Informationen zu speichern. Cookies sind Dateien mit einer kleinen Datenmenge, die möglicherweise eine anonyme eindeutige Kennung enthalten.",
+      "text2": "Sie können Ihren Browser anweisen, alle Cookies abzulehnen oder anzuzeigen, wenn ein Cookie gesendet wird. Wenn Sie jedoch keine Cookies akzeptieren, können Sie möglicherweise einige Teile unseres Services nicht nutzen."
+    },
+    "security": {
+      "title": "Datensicherheit",
+      "text": "Die Sicherheit Ihrer Daten ist uns wichtig, aber denken Sie daran, dass keine Methode der Übertragung über das Internet oder der elektronischen Speicherung 100% sicher ist. Während wir uns bemühen, kommerziell akzeptable Mittel zum Schutz Ihrer personenbezogenen Daten zu verwenden, können wir deren absolute Sicherheit nicht garantieren."
+    },
+    "rights": {
+      "title": "Ihre Datenschutzrechte",
+      "text": "Gemäß DSGVO haben Sie folgende Rechte:",
+      "items": [
+        "Das Recht auf Zugang zu Ihren personenbezogenen Daten",
+        "Das Recht auf Berichtigung",
+        "Das Recht auf Löschung",
+        "Das Recht auf Einschränkung der Verarbeitung",
+        "Das Recht auf Datenübertragbarkeit",
+        "Das Recht auf Widerspruch",
+        "Rechte in Bezug auf automatisierte Entscheidungsfindung und Profiling"
+      ]
+    },
+    "contact": {
+      "title": "Kontakt",
+      "text": "Wenn Sie Fragen zu dieser Datenschutzerklärung haben, kontaktieren Sie uns bitte:",
+      "items": [
+        "Per E-Mail: info@capsula.ai",
+        "Per Telefon: +49 421 37703470",
+        "Per Post: Martinistraße 62-66, 28195 Bremen, Deutschland"
+      ]
+    }
   }
 } 

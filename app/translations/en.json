@@ -155,5 +155,79 @@
       "title": "Get in Touch",
       "description": "Contact us to learn more about supporting your project"
     }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "introduction": {
+      "title": "Introduction",
+      "text": "At capsula.ai, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site."
+    },
+    "dataCollection": {
+      "title": "Information We Collect",
+      "personalData": {
+        "title": "Personal Data",
+        "text": "We may collect personal identification information, including but not limited to:",
+        "items": [
+          "Name",
+          "Email address",
+          "Phone number",
+          "Company information"
+        ]
+      },
+      "usageData": {
+        "title": "Usage Data",
+        "text": "We may also collect information about how the website is accessed and used. This usage data may include:",
+        "items": [
+          "Your computer's Internet Protocol address",
+          "Browser type and version",
+          "Pages you visit",
+          "Time and date of your visit",
+          "Time spent on pages"
+        ]
+      }
+    },
+    "dataUsage": {
+      "title": "How We Use Your Information",
+      "text": "We use the collected data for various purposes:",
+      "items": [
+        "To provide and maintain our service",
+        "To notify you about changes to our service",
+        "To provide customer support",
+        "To gather analysis or valuable information to improve our service",
+        "To monitor the usage of our service",
+        "To detect, prevent and address technical issues"
+      ]
+    },
+    "cookies": {
+      "title": "Cookies and Tracking Technologies",
+      "text1": "We use cookies and similar tracking technologies to track activity on our website and hold certain information. Cookies are files with small amount of data which may include an anonymous unique identifier.",
+      "text2": "You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our service."
+    },
+    "security": {
+      "title": "Data Security",
+      "text": "The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal data, we cannot guarantee its absolute security."
+    },
+    "rights": {
+      "title": "Your Data Protection Rights",
+      "text": "Under GDPR, you have the following rights:",
+      "items": [
+        "The right to access your personal data",
+        "The right to rectification",
+        "The right to erasure",
+        "The right to restrict processing",
+        "The right to data portability",
+        "The right to object",
+        "Rights in relation to automated decision making and profiling"
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "text": "If you have any questions about this Privacy Policy, please contact us:",
+      "items": [
+        "By email: info@capsula.ai",
+        "By phone: +49 421 37703470",
+        "By mail: Martinistraße 62-66, 28195 Bremen, Germany"
+      ]
+    }
   }
 } 
