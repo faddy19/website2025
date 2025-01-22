@@ -228,6 +228,896 @@
         "Per Telefon: +49 421 37703470",
         "Per Post: Martinistraße 62-66, 28195 Bremen, Deutschland"
       ]
+    },
+    "section5": {
+      "title": "5. Newsletter",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Bei der Anmeldung zu unserem Newsletter erheben und verarbeiten wir folgende Daten:",
+          "items": [
+            "E-Mail-Adresse (erforderlich)",
+            "Name (optional)",
+            "Firmenname (optional)",
+            "Position (optional)",
+            "Branche (optional)"
+          ],
+          "doubleOptIn": "Wir verwenden für die Newsletter-Anmeldung das Double-Opt-in-Verfahren. Nach der Registrierung erhalten Sie eine Bestätigungs-E-Mail mit einem Link zur Bestätigung Ihrer Anmeldung. Diese Bestätigung ist erforderlich, um zu verhindern, dass E-Mail-Adressen missbräuchlich verwendet werden.",
+          "tracking": "Unsere Newsletter können Zählpixel enthalten, die uns ermöglichen zu analysieren, ob und wann Sie eine E-Mail öffnen und welche Links Sie anklicken. Diese Daten werden zur Optimierung unserer Newsletter-Inhalte verwendet."
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung Ihrer E-Mail-Adresse für den Newsletter-Versand erfolgt auf Grundlage Ihrer Einwilligung gemäß Art. 6 Abs. 1 lit. a) DSGVO. Das Tracking der Newsletter-Nutzung erfolgt auf Grundlage unserer berechtigten Interessen gemäß Art. 6 Abs. 1 lit. f) DSGVO zur Optimierung unserer Kommunikation."
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Wir nutzen Ihre E-Mail-Adresse zum Versand unseres Newsletters. Zusätzliche Daten werden zur Personalisierung des Newsletters und zur Verhinderung von Missbrauch verwendet. Die Tracking-Daten helfen uns zu verstehen, wie unsere Newsletter genutzt werden und wie wir sie verbessern können."
+        },
+        "duration": {
+          "title": "Dauer der Speicherung",
+          "text": "Wir speichern Ihre Daten, solange Sie unseren Newsletter abonniert haben. Sie können sich jederzeit über den Link im Newsletter oder durch Kontaktaufnahme mit uns abmelden.",
+          "deletion": "Nach der Abmeldung wird Ihre E-Mail-Adresse in einer Sperrliste gespeichert, um sicherzustellen, dass wir Ihre Abmeldung respektieren. Andere Daten werden gelöscht, sofern keine gesetzlichen Aufbewahrungsfristen eine weitere Speicherung erfordern."
+        },
+        "recipient": {
+          "title": "Empfänger der Daten",
+          "text": "Für den Newsletter-Versand nutzen wir spezialisierte Newsletter-Dienstleister, die als unsere Auftragsverarbeiter gemäß Art. 28 DSGVO tätig sind. Mit diesen Dienstleistern haben wir Auftragsverarbeitungsverträge geschlossen, um den Schutz Ihrer Daten sicherzustellen."
+        }
+      }
+    },
+    "section6": {
+      "title": "6. Download von Whitepapern und anderen Dokumenten",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Für den Zugriff auf unsere Whitepaper und Download-Dokumente müssen Sie bestimmte Daten angeben und einer Marketing-Kommunikation zustimmen. Wir verarbeiten:",
+          "items": [
+            "Vor- und Nachname",
+            "E-Mail-Adresse",
+            "Firmenname (falls zutreffend)",
+            "Position (falls zutreffend)",
+            "Weitere Angaben im Rahmen der Einwilligung"
+          ]
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Datenverarbeitung zur Bereitstellung des Whitepapers erfolgt auf Grundlage der Vertragserfüllung (Art. 6 Abs. 1 lit. b) DSGVO). Die anschließende Marketing-Kommunikation basiert auf Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO)."
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Wir verarbeiten Ihre Daten zur:",
+          "items": [
+            "Bereitstellung des angeforderten Dokuments",
+            "Überprüfung Ihrer Identität",
+            "Zusendung von Marketing-Kommunikation (mit Einwilligung)",
+            "Analyse der Dokumentennutzung"
+          ]
+        },
+        "duration": {
+          "title": "Dauer der Speicherung",
+          "text": "Wir speichern Ihre Daten bis zum Widerruf Ihrer Einwilligung oder bis zu Ihrem Widerspruch gegen die Verarbeitung. Der Widerruf der Einwilligung berührt nicht die Rechtmäßigkeit der bis zum Widerruf erfolgten Verarbeitung."
+        },
+        "recipient": {
+          "title": "Empfänger der Daten",
+          "text": "Ihre Daten können weitergegeben werden an:",
+          "items": [
+            "Unseren CRM-System-Anbieter",
+            "Unseren E-Mail-Marketing-Dienstleister",
+            "Unsere Analyse-Dienstleister"
+          ]
+        }
+      }
+    },
+    "section7": {
+      "title": "7. Kontaktformular und E-Mail-Kontakt",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Bei der Nutzung unseres Kontaktformulars erheben wir folgende Daten:",
+          "items": [
+            "Vor- und Nachname",
+            "E-Mail-Adresse",
+            "Telefonnummer",
+            "Firmenname",
+            "Position",
+            "Land",
+            "Nachrichteninhalt"
+          ],
+          "additional": "Bei Kontaktaufnahme per E-Mail speichern wir Ihre E-Mail-Adresse und die von Ihnen in der Nachricht mitgeteilten Informationen."
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung der Daten aus dem Kontaktformular und der E-Mail-Kommunikation erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO)",
+            "Unserer berechtigten Interessen zur Beantwortung Ihrer Anfrage (Art. 6 Abs. 1 lit. f) DSGVO)",
+            "Der Vertragserfüllung, wenn Ihre Nachricht einen Vertrag betrifft (Art. 6 Abs. 1 lit. b) DSGVO)"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Wir verarbeiten Ihre Daten zur:",
+          "items": [
+            "Bearbeitung Ihrer Anfrage",
+            "Kommunikation mit Ihnen",
+            "Bereitstellung angeforderter Informationen",
+            "Abwicklung eventueller Geschäftsbeziehungen"
+          ]
+        },
+        "duration": {
+          "title": "Dauer der Speicherung",
+          "text": "Wir speichern Ihre Daten bis zur vollständigen Bearbeitung Ihrer Anfrage und bis zum Ablauf eventueller gesetzlicher Aufbewahrungsfristen. Bei regulären Kontaktanfragen prüfen und löschen wir die Daten nach 6 Monaten, wenn keine laufende Geschäftsbeziehung besteht."
+        },
+        "recipient": {
+          "title": "Empfänger der Daten",
+          "text": "Ihre Daten können verarbeitet werden von:",
+          "items": [
+            "Unserem internen Kundenservice-Team",
+            "Zuständigen Fachabteilungsmitarbeitern",
+            "Unserem CRM-System-Anbieter"
+          ]
+        }
+      }
+    },
+    "section8": {
+      "title": "8. Umfragen und Einsatz von Typeform",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir nutzen Typeform zur Durchführung von Umfragen und zur Veröffentlichung von Umfrageergebnissen. Dabei können folgende Daten verarbeitet werden:",
+          "items": [
+            "Ihre (anonymisierten) Umfrageantworten",
+            "Kontaktinformationen (falls angegeben)",
+            "Firmenname (falls angegeben)",
+            "Technische Daten (IP-Adresse, Browsertyp, Geräteinformationen)",
+            "Nutzungsdaten (Bearbeitungszeit, Interaktionsmuster)"
+          ],
+          "provider": "Anbieter dieses Dienstes ist die Typeform SL, Carrer Bac de Roda, 163, 08018 Barcelona, Spanien."
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO) bei der Teilnahme an Umfragen",
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) für anonyme Umfrageanalysen",
+            "Der Vertragserfüllung (Art. 6 Abs. 1 lit. b) DSGVO), wenn Umfragen Teil unserer Dienstleistungen sind"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Wir verarbeiten die Daten zur:",
+          "items": [
+            "Durchführung und Analyse von Umfragen",
+            "Verbesserung unserer Dienstleistungen basierend auf Feedback",
+            "Erstellung anonymisierter Statistiken",
+            "Kontaktaufnahme bezüglich Ihrer Antworten (bei erteilter Einwilligung)"
+          ]
+        },
+        "duration": {
+          "title": "Dauer der Speicherung",
+          "text": "Umfragedaten werden gespeichert bis:",
+          "items": [
+            "Der Zweck der Umfrage erfüllt ist",
+            "Sie die Löschung Ihrer Daten beantragen",
+            "Sie Ihre Einwilligung widerrufen",
+            "Maximal 2 Jahre für anonyme statistische Daten"
+          ]
+        },
+        "recipient": {
+          "title": "Empfänger der Daten",
+          "text": "Ihre Daten können verarbeitet werden von:",
+          "items": [
+            "Typeform als unserem Auftragsverarbeiter",
+            "Unserem internen Analyseteam",
+            "Dienstleistern für Datenanalyse"
+          ],
+          "thirdCountry": "Die Datenübermittlung nach Spanien ist durch EU-Datenschutzstandards abgedeckt."
+        }
+      }
+    },
+    "section9": {
+      "title": "9. Datenverarbeitung im Bewerbungsprozess",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Bei Bewerbungen über unser Online-Bewerbungsportal oder per E-Mail verarbeiten wir folgende personenbezogene Daten:",
+          "items": [
+            "Vor- und Nachname",
+            "E-Mail-Adresse",
+            "Telefonnummer",
+            "Mögliches Eintrittsdatum",
+            "Gehaltsvorstellungen",
+            "Bewerbungsunterlagen (Lebenslauf, Zeugnisse etc.)",
+            "Angaben zu Ausbildung und Qualifikationen",
+            "Berufserfahrung und Referenzen",
+            "Weitere von Ihnen in der Bewerbung angegebene Informationen"
+          ]
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung von Bewerbungsdaten erfolgt auf Grundlage:",
+          "items": [
+            "Der Durchführung vorvertraglicher Maßnahmen (Art. 6 Abs. 1 lit. b) DSGVO)",
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO) für die Aufnahme in den Talent-Pool",
+            "Der Erfüllung rechtlicher Verpflichtungen (Art. 6 Abs. 1 lit. c) DSGVO)",
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) für interne Analysen"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Wir verarbeiten Ihre Bewerbungsdaten zur:",
+          "items": [
+            "Bewertung Ihrer Bewerbung",
+            "Kommunikation mit Ihnen über Ihre Bewerbung",
+            "Erfüllung rechtlicher Pflichten",
+            "Verteidigung gegen Rechtsansprüche falls erforderlich",
+            "Aufnahme in unseren Talent-Pool (mit Einwilligung)"
+          ]
+        },
+        "duration": {
+          "title": "Dauer der Speicherung",
+          "text": "Wir speichern Bewerbungsdaten wie folgt:",
+          "items": [
+            "6 Monate nach Ablehnung (Standardfrist)",
+            "Bis zu 2 Jahre mit Einwilligung für den Talent-Pool",
+            "Länger, wenn rechtliche Pflichten oder Rechtsverteidigung dies erfordern"
+          ],
+          "deletion": "Nach diesen Fristen werden Ihre Daten gelöscht, sofern Sie nicht ausdrücklich einer längeren Speicherung zugestimmt haben."
+        },
+        "recipient": {
+          "title": "Empfänger der Daten",
+          "text": "Auf Ihre Bewerbungsdaten können zugreifen:",
+          "items": [
+            "Mitarbeiter der Personalabteilung",
+            "Abteilungsleiter und potenzielle Vorgesetzte",
+            "Geschäftsführung für finale Entscheidungen",
+            "Betriebsrat soweit gesetzlich erforderlich"
+          ],
+          "security": "Alle Empfänger sind zur Vertraulichkeit verpflichtet."
+        }
+      }
+    },
+    "section10": {
+      "title": "10. Einsatz von HubSpot",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir nutzen HubSpot für unser CRM, E-Mail-Marketing, Kontaktmanagement und Reporting. Dabei können folgende Daten verarbeitet werden:",
+          "items": [
+            "Kontaktinformationen (Name, E-Mail, Telefon)",
+            "Unternehmensinformationen",
+            "Kommunikationsverlauf",
+            "Nutzungsdaten und Interaktionen",
+            "Technische Daten (IP-Adresse, Browser-Informationen)",
+            "Marketing-Präferenzen"
+          ],
+          "provider": "HubSpot, Inc., 25 First Street, 2nd Floor, Cambridge, MA 02141, USA"
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO) für Marketing-Kommunikation",
+            "Der Vertragserfüllung (Art. 6 Abs. 1 lit. b) DSGVO) für Kundenbeziehungen",
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) für Geschäftsanalysen"
+          ],
+          "thirdCountry": "Die Datenübermittlung in die USA ist durch EU-Standardvertragsklauseln und zusätzliche Garantien im Rahmen des EU-US Data Privacy Framework abgesichert."
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Wir nutzen HubSpot zur:",
+          "items": [
+            "Verwaltung von Kundenbeziehungen",
+            "Versendung von Marketing-Kommunikation",
+            "Analyse der Website-Nutzung",
+            "Optimierung unserer Dienstleistungen",
+            "Erstellung von Geschäftsberichten"
+          ]
+        },
+        "duration": {
+          "title": "Dauer der Speicherung",
+          "text": "Wir speichern Ihre Daten in HubSpot:",
+          "items": [
+            "Solange für geschäftliche Zwecke erforderlich",
+            "Bis zum Widerruf Ihrer Einwilligung",
+            "Gemäß gesetzlichen Aufbewahrungsfristen"
+          ],
+          "deletion": "Sie können jederzeit die Löschung Ihrer Daten beantragen."
+        },
+        "recipient": {
+          "title": "Empfänger der Daten",
+          "text": "Auf Ihre Daten in HubSpot können zugreifen:",
+          "items": [
+            "Unser Vertriebs- und Marketing-Team",
+            "Kundenservice-Mitarbeiter",
+            "HubSpot als unser Auftragsverarbeiter",
+            "Autorisierte Dienstleister"
+          ],
+          "security": "Alle Datenverarbeitungen unterliegen strengen Sicherheitsmaßnahmen und Datenschutzvereinbarungen."
+        },
+        "rights": {
+          "title": "Ihre Rechte",
+          "text": "Bezüglich der HubSpot-Datenverarbeitung haben Sie das Recht:",
+          "items": [
+            "Ihre Einwilligung jederzeit zu widerrufen",
+            "Der Verarbeitung aufgrund berechtigter Interessen zu widersprechen",
+            "Auskunft über Ihre gespeicherten Daten zu verlangen",
+            "Die Berichtigung oder Löschung Ihrer Daten zu verlangen"
+          ]
+        }
+      }
+    },
+    "section11": {
+      "title": "11. Einsatz von Google Analytics",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir nutzen Google Analytics für die Analyse des Nutzerverhaltens auf unserer Website. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "IP-Adresse (anonymisiert)",
+            "Geräteinformationen (Browser, Betriebssystem, Bildschirmauflösung)",
+            "Ungefährer Standort (Land, Region)",
+            "Besuchte Seiten und Klickverhalten",
+            "Verweildauer und Interaktionen",
+            "Referrer-URL (von welcher Seite der Nutzer kam)"
+          ],
+          "provider": "Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland"
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO)",
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zur Analyse und Verbesserung unseres Online-Angebots"
+          ],
+          "thirdCountry": "Die Datenübermittlung in die USA erfolgt auf Grundlage von EU-Standardvertragsklauseln und zusätzlichen Garantien im Rahmen des EU-US Data Privacy Framework."
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Die Daten werden verarbeitet zur:",
+          "items": [
+            "Analyse des Nutzerverhaltens",
+            "Optimierung unserer Website",
+            "Messung der Effektivität unserer Online-Präsenz",
+            "Erstellung von Statistiken",
+            "Verbesserung unseres Angebots"
+          ]
+        },
+        "duration": {
+          "title": "Dauer der Speicherung",
+          "text": "Die Daten werden gespeichert:",
+          "items": [
+            "Für maximal 14 Monate",
+            "Bis zum Widerruf Ihrer Einwilligung",
+            "Bis zur Löschung Ihrer Cookies"
+          ]
+        },
+        "settings": {
+          "title": "Ihre Einstellungsmöglichkeiten",
+          "text": "Sie können:",
+          "items": [
+            "Die Erfassung durch Google Analytics verhindern, indem Sie Cookies deaktivieren",
+            "Das Browser-Add-on zur Deaktivierung von Google Analytics installieren",
+            "Ihre Cookie-Einstellungen in unserem Cookie-Banner anpassen"
+          ]
+        }
+      }
+    },
+    "section12": {
+      "title": "12. Einsatz von Google Ads Conversion Tracking und Google Consent Mode",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir nutzen Google Ads Conversion Tracking und den Google Consent Mode. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "Conversion-Ereignisse (z.B. Formulareinsendungen, Downloads)",
+            "Geräteinformationen",
+            "IP-Adresse (anonymisiert)",
+            "Zeitpunkt der Conversion",
+            "Cookie-Informationen"
+          ]
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO)",
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zur Analyse der Werbeeffektivität"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Die Daten werden verarbeitet zur:",
+          "items": [
+            "Messung des Erfolgs unserer Werbekampagnen",
+            "Optimierung der Werbeaussteuerung",
+            "Verbesserung der Werbeeffektivität",
+            "Kosten-Nutzen-Analyse unserer Marketingmaßnahmen"
+          ]
+        }
+      }
+    },
+    "section13": {
+      "title": "13. Einsatz von Google Optimize",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir nutzen Google Optimize für A/B-Tests und Website-Optimierung. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "Seitenaufrufe und Klickverhalten",
+            "Geräteinformationen",
+            "IP-Adresse (anonymisiert)",
+            "Test-Varianten-Zuordnung",
+            "Interaktionsdaten"
+          ]
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO)",
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zur Verbesserung unseres Online-Angebots"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Die Daten werden verarbeitet zur:",
+          "items": [
+            "Durchführung von A/B-Tests",
+            "Optimierung der Benutzerfreundlichkeit",
+            "Verbesserung der Website-Performance",
+            "Analyse des Nutzerverhaltens"
+          ]
+        }
+      }
+    },
+    "section14": {
+      "title": "14. Einsatz des Google Tag Managers",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir nutzen den Google Tag Manager zur Verwaltung von Website-Tags. Der Tag Manager selbst verarbeitet keine personenbezogenen Daten, ermöglicht aber die Implementierung anderer Tracking-Tools."
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zur effizienten Verwaltung und Einbindung verschiedener Tools und Tracking-Dienste."
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Der Tag Manager wird eingesetzt zur:",
+          "items": [
+            "Verwaltung von Website-Tags",
+            "Einbindung von Tracking-Tools",
+            "Optimierung der Website-Performance",
+            "Vereinfachung der technischen Implementation"
+          ]
+        }
+      }
+    },
+    "section15": {
+      "title": "15. Einsatz von Google Maps",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir nutzen Google Maps zur Darstellung interaktiver Karten. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "IP-Adresse",
+            "Standortdaten (wenn vom Nutzer freigegeben)",
+            "Geräteinformationen",
+            "Nutzungsstatistiken"
+          ]
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO)",
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zur Bereitstellung von Kartenfunktionen"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Die Integration erfolgt zur:",
+          "items": [
+            "Darstellung interaktiver Karten",
+            "Anzeige unseres Standorts",
+            "Bereitstellung von Routenplanungen"
+          ]
+        }
+      }
+    },
+    "section16": {
+      "title": "16. Einsatz von Google reCAPTCHA",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir nutzen Google reCAPTCHA zum Schutz vor Spam und Missbrauch. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "IP-Adresse",
+            "Cookies",
+            "Mausbewegungen und Klicks",
+            "Geräteinformationen",
+            "Verweildauer und Interaktionen"
+          ]
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO)",
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zum Schutz vor Missbrauch"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "reCAPTCHA wird eingesetzt zum:",
+          "items": [
+            "Schutz vor Spam in Kontaktformularen",
+            "Verhinderung von automatisierten Zugriffen",
+            "Sicherstellung der Website-Sicherheit"
+          ]
+        }
+      }
+    },
+    "section17": {
+      "title": "17. Einsatz von Hotjar",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir nutzen Hotjar zur Analyse des Nutzerverhaltens. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "Geräteinformationen",
+            "Mausbewegungen und Klicks",
+            "Scrollverhalten",
+            "Anonymisierte Formular-Eingaben",
+            "Seiteninteraktionen"
+          ],
+          "provider": "Hotjar Ltd., Level 2, St Julian's Business Centre, 3, Elia Zammit Street, St Julian's STJ 1000, Malta"
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO)",
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zur Verbesserung unseres Online-Angebots"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Hotjar wird eingesetzt zur:",
+          "items": [
+            "Analyse des Nutzerverhaltens",
+            "Identifizierung von Usability-Problemen",
+            "Optimierung der Benutzerfreundlichkeit",
+            "Verbesserung des Nutzererlebnisses"
+          ]
+        }
+      }
+    },
+    "section18": {
+      "title": "18. Einsatz von Wordfence",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir nutzen Wordfence zur Sicherheit unserer Website. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "IP-Adresse",
+            "Zugriffszeiten",
+            "Besuchte Seiten",
+            "Technische Informationen des Browsers",
+            "Sicherheitsrelevante Ereignisse"
+          ]
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zum Schutz unserer Website vor Angriffen und Missbrauch."
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Wordfence wird eingesetzt zum:",
+          "items": [
+            "Schutz vor Hackerangriffen",
+            "Erkennung von Malware",
+            "Blockierung verdächtiger IP-Adressen",
+            "Sicherstellung der Website-Integrität"
+          ]
+        }
+      }
+    },
+    "section19": {
+      "title": "19. Einsatz von Contact Form 7",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir nutzen Contact Form 7 für unsere Kontaktformulare. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "Name",
+            "E-Mail-Adresse",
+            "Betreff",
+            "Nachrichteninhalt",
+            "Weitere freiwillig angegebene Informationen"
+          ]
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO)",
+            "Der Vertragsanbahnung oder -erfüllung (Art. 6 Abs. 1 lit. b) DSGVO)",
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zur Bearbeitung von Anfragen"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Contact Form 7 wird eingesetzt zur:",
+          "items": [
+            "Ermöglichung der Kontaktaufnahme",
+            "Bearbeitung von Anfragen",
+            "Kommunikation mit Interessenten"
+          ]
+        }
+      }
+    },
+    "section20": {
+      "title": "20. Einsatz von Facebook Pixel",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir setzen auf unserer Website den Facebook Pixel ein. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "IP-Adresse (anonymisiert)",
+            "Geräteinformationen",
+            "Besuchte Seiten",
+            "Conversion-Ereignisse (z.B. Newsletter-Anmeldungen)",
+            "Interaktionen mit Werbeanzeigen"
+          ],
+          "provider": "Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Irland"
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO)",
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zur Analyse und Optimierung unserer Werbemaßnahmen"
+          ],
+          "thirdCountry": "Die Datenübermittlung in die USA erfolgt auf Grundlage von EU-Standardvertragsklauseln und zusätzlichen Garantien im Rahmen des EU-US Data Privacy Framework."
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Der Facebook Pixel wird eingesetzt zur:",
+          "items": [
+            "Messung der Werbewirksamkeit",
+            "Optimierung von Werbeanzeigen",
+            "Analyse des Nutzerverhaltens",
+            "Zielgruppenbildung für Werbemaßnahmen"
+          ]
+        }
+      }
+    },
+    "section21": {
+      "title": "21. Einsatz von Borlabs Cookie Manager",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir nutzen Borlabs Cookie Manager zur Verwaltung von Cookie-Einwilligungen. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "Cookie-Einstellungen",
+            "Zeitpunkt der Einwilligung",
+            "Geräteinformationen",
+            "IP-Adresse (anonymisiert)"
+          ]
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO)",
+            "Unserer rechtlichen Verpflichtung zur Einholung von Cookie-Einwilligungen (Art. 6 Abs. 1 lit. c) DSGVO)"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Borlabs Cookie Manager wird eingesetzt zur:",
+          "items": [
+            "Verwaltung von Cookie-Einwilligungen",
+            "Dokumentation von Einwilligungen",
+            "Umsetzung der DSGVO-Anforderungen",
+            "Benutzerfreundliche Steuerung von Cookie-Präferenzen"
+          ]
+        }
+      }
+    },
+    "section22": {
+      "title": "22. Facebook Fanpage",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir betreiben eine Facebook Fanpage. Bei der Nutzung werden folgende Daten verarbeitet:",
+          "items": [
+            "Nutzungsverhalten",
+            "Demografische Daten",
+            "Interaktionen mit der Seite",
+            "Standortdaten",
+            "Geräteinformationen"
+          ]
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zur Kommunikation mit Interessenten",
+            "Gemeinsamer Verantwortlichkeit mit Meta Ireland gemäß Art. 26 DSGVO"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Die Facebook Fanpage wird genutzt zur:",
+          "items": [
+            "Kommunikation mit Interessenten",
+            "Information über unsere Dienstleistungen",
+            "Analyse der Seitennutzung",
+            "Optimierung unseres Social-Media-Auftritts"
+          ]
+        }
+      }
+    },
+    "section23": {
+      "title": "23. LinkedIn Unternehmensseite",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir betreiben eine LinkedIn Unternehmensseite. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "Profilinformationen",
+            "Interaktionen mit der Seite",
+            "Berufliche Informationen",
+            "Nutzungsstatistiken"
+          ],
+          "provider": "LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Irland"
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zur beruflichen Vernetzung",
+            "Gemeinsamer Verantwortlichkeit mit LinkedIn Ireland gemäß Art. 26 DSGVO"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "Die LinkedIn Seite wird genutzt zur:",
+          "items": [
+            "Beruflichen Vernetzung",
+            "Präsentation unseres Unternehmens",
+            "Rekrutierung von Mitarbeitern",
+            "Analyse der Seitennutzung"
+          ]
+        }
+      }
+    },
+    "section24": {
+      "title": "24. YouTube",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir betreiben einen YouTube-Kanal und betten Videos ein. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "IP-Adresse",
+            "Geräteinformationen",
+            "Wiedergabeverhalten",
+            "Interaktionen mit Videos",
+            "YouTube-Konto-Informationen (falls angemeldet)"
+          ],
+          "provider": "Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland"
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Ihrer Einwilligung (Art. 6 Abs. 1 lit. a) DSGVO)",
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zur Bereitstellung von Videoinhalten"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "YouTube wird genutzt zur:",
+          "items": [
+            "Präsentation von Videoinhalten",
+            "Information über unsere Dienstleistungen",
+            "Analyse der Videonutzung",
+            "Optimierung unseres Content-Angebots"
+          ]
+        }
+      }
+    },
+    "section25": {
+      "title": "25. TikTok",
+      "subsections": {
+        "description": {
+          "title": "Beschreibung und Umfang der Datenverarbeitung",
+          "text": "Wir betreiben einen TikTok-Account. Dabei werden folgende Daten verarbeitet:",
+          "items": [
+            "Nutzungsverhalten",
+            "Interaktionen mit Inhalten",
+            "Geräteinformationen",
+            "TikTok-Konto-Informationen (falls angemeldet)"
+          ],
+          "provider": "TikTok Technology Limited, 10 Earlsfort Terrace, Dublin, D02 T380, Irland"
+        },
+        "legalBasis": {
+          "title": "Rechtsgrundlage der Verarbeitung",
+          "text": "Die Verarbeitung erfolgt auf Grundlage:",
+          "items": [
+            "Unserer berechtigten Interessen (Art. 6 Abs. 1 lit. f) DSGVO) zur Kommunikation über soziale Medien",
+            "Gemeinsamer Verantwortlichkeit mit TikTok Ireland gemäß Art. 26 DSGVO"
+          ]
+        },
+        "purpose": {
+          "title": "Zweck der Verarbeitung",
+          "text": "TikTok wird genutzt zur:",
+          "items": [
+            "Präsentation von Kurzvideos",
+            "Interaktion mit der Community",
+            "Marketing und Branding",
+            "Reichweitenanalyse"
+          ]
+        }
+      }
+    },
+    "section26": {
+      "title": "26. Rechte der betroffenen Person",
+      "subsections": {
+        "description": {
+          "title": "Ihre Rechte im Überblick",
+          "text": "Als betroffene Person haben Sie folgende Rechte:",
+          "items": [
+            "Recht auf Auskunft (Art. 15 DSGVO)",
+            "Recht auf Berichtigung (Art. 16 DSGVO)",
+            "Recht auf Löschung (Art. 17 DSGVO)",
+            "Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)",
+            "Recht auf Datenübertragbarkeit (Art. 20 DSGVO)",
+            "Recht auf Widerspruch (Art. 21 DSGVO)",
+            "Recht auf Widerruf der Einwilligung (Art. 7 Abs. 3 DSGVO)",
+            "Beschwerderecht bei einer Aufsichtsbehörde (Art. 77 DSGVO)"
+          ]
+        },
+        "exercise": {
+          "title": "Ausübung Ihrer Rechte",
+          "text": "Sie können Ihre Rechte jederzeit ausüben durch:",
+          "items": [
+            "Kontaktaufnahme per E-Mail an datenschutz@statworx.com",
+            "Schriftliche Mitteilung an unsere Postadresse",
+            "Nutzung der in dieser Datenschutzerklärung angegebenen Kontaktmöglichkeiten"
+          ]
+        },
+        "complaint": {
+          "title": "Beschwerderecht",
+          "text": "Sie haben das Recht, sich bei einer Datenschutz-Aufsichtsbehörde über die Verarbeitung Ihrer personenbezogenen Daten zu beschweren. Die zuständige Aufsichtsbehörde ist:",
+          "authority": "Der Hessische Beauftragte für Datenschutz und Informationsfreiheit, Postfach 3163, 65021 Wiesbaden"
+        }
+      }
+    },
+    "section27": {
+      "title": "27. Änderungen der Datenschutzerklärung",
+      "subsections": {
+        "description": {
+          "title": "Aktualisierungen",
+          "text": "Wir behalten uns vor, diese Datenschutzerklärung bei Bedarf zu aktualisieren, um sie an veränderte Verarbeitungssituationen oder rechtliche Anforderungen anzupassen.",
+          "items": [
+            "Regelmäßige Überprüfung auf Aktualität",
+            "Anpassung bei rechtlichen oder technischen Änderungen",
+            "Information über wesentliche Änderungen",
+            "Gültigkeit der jeweils aktuellen Version"
+          ]
+        },
+        "notification": {
+          "title": "Benachrichtigung über Änderungen",
+          "text": "Bei wesentlichen Änderungen werden wir Sie in geeigneter Form informieren. Die aktuelle Version der Datenschutzerklärung ist stets auf unserer Website verfügbar."
+        },
+        "validity": {
+          "title": "Gültigkeit",
+          "text": "Diese Datenschutzerklärung ist gültig ab Mai 2024. Frühere Versionen können bei Bedarf bei uns angefragt werden."
+        }
+      }
     }
   }
 } 

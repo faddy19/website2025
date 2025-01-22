@@ -158,76 +158,1067 @@
   },
   "privacy": {
     "title": "Privacy Policy",
-    "introduction": {
-      "title": "Introduction",
-      "text": "At capsula.ai, we take your privacy seriously. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website. Please read this privacy policy carefully. If you do not agree with the terms of this privacy policy, please do not access the site."
-    },
-    "dataCollection": {
-      "title": "Information We Collect",
-      "personalData": {
-        "title": "Personal Data",
-        "text": "We may collect personal identification information, including but not limited to:",
-        "items": [
-          "Name",
-          "Email address",
-          "Phone number",
-          "Company information"
-        ]
-      },
-      "usageData": {
-        "title": "Usage Data",
-        "text": "We may also collect information about how the website is accessed and used. This usage data may include:",
-        "items": [
-          "Your computer's Internet Protocol address",
-          "Browser type and version",
-          "Pages you visit",
-          "Time and date of your visit",
-          "Time spent on pages"
-        ]
+    "lastUpdated": "Last Updated: May 2024",
+    "responsibleParty": {
+      "title": "1. Responsible Party",
+      "text": "The following party is responsible for data processing on this website according to Art. 4 No. 7 GDPR:",
+      "details": {
+        "company": "statworx GmbH",
+        "address": "Lindleystraße 17",
+        "city": "60314 Frankfurt am Main",
+        "phone": "Phone: +49 69 3487 5995",
+        "email": "Email: info@statworx.com",
+        "register": "Commercial Register: HRB 117794 (District Court Frankfurt am Main)",
+        "management": {
+          "title": "Management",
+          "text": "Dr. Sebastian Heinz, Tobias Verbeke"
+        },
+        "dpo": {
+          "title": "Data Protection Officer",
+          "text": "You can reach our data protection officer at: datenschutz@statworx.com"
+        }
       }
     },
-    "dataUsage": {
-      "title": "How We Use Your Information",
-      "text": "We use the collected data for various purposes:",
-      "items": [
-        "To provide and maintain our service",
-        "To notify you about changes to our service",
-        "To provide customer support",
-        "To gather analysis or valuable information to improve our service",
-        "To monitor the usage of our service",
-        "To detect, prevent and address technical issues"
-      ]
+    "section1": {
+      "title": "2. General Information on Data Processing",
+      "subsections": {
+        "1": {
+          "title": "Scope of Personal Data Processing",
+          "text": "We process personal data of our users only to the extent necessary to provide a functional website, our content and services. The processing of personal data of our users takes place regularly only with the user's consent. An exception applies in cases where prior consent cannot be obtained for factual reasons and the processing of the data is permitted by law."
+        },
+        "2": {
+          "title": "Legal Basis for Processing Personal Data",
+          "text": "When we obtain consent from the data subject for processing operations involving personal data, Article 6(1)(a) of the EU General Data Protection Regulation (GDPR) serves as the legal basis."
+        }
+      }
     },
-    "cookies": {
-      "title": "Cookies and Tracking Technologies",
-      "text1": "We use cookies and similar tracking technologies to track activity on our website and hold certain information. Cookies are files with small amount of data which may include an anonymous unique identifier.",
-      "text2": "You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our service."
+    "section2": {
+      "title": "3. Legal Basis for Data Processing",
+      "subsections": {
+        "scope": {
+          "title": "Scope of Processing",
+          "text": "We process our users' personal data only when necessary and in compliance with applicable data protection regulations. This means we only process data when:"
+        },
+        "legalBasis": {
+          "title": "Legal Grounds",
+          "text": "The legal basis for processing personal data is primarily derived from Art. 6 GDPR:",
+          "vitalInterests": "Processing may also be necessary to protect vital interests of the data subject or another natural person.",
+          "specialCategories": {
+            "title": "Legal Bases Under Art. 6(1) GDPR",
+            "text": "We process personal data based on the following legal grounds:",
+            "items": [
+              "The data subject has given consent (Art. 6(1)(a) GDPR)",
+              "Processing is necessary for the performance of a contract (Art. 6(1)(b) GDPR)",
+              "Processing is necessary for compliance with a legal obligation (Art. 6(1)(c) GDPR)",
+              "Processing is necessary to protect vital interests (Art. 6(1)(d) GDPR)",
+              "Processing is necessary for the purposes of legitimate interests (Art. 6(1)(f) GDPR)"
+            ]
+          }
+        },
+        "recipients": {
+          "title": "Recipients of Personal Data",
+          "text": "As part of our processing of personal data, the data may be transferred to or disclosed to other entities:",
+          "items": [
+            "Internal departments and employees responsible for processing",
+            "Contract processors (Art. 28 GDPR)",
+            "External service providers when necessary",
+            "Other third parties where legally required or with your consent"
+          ]
+        },
+        "thirdCountries": {
+          "title": "Data Transfer to Third Countries",
+          "text": "Some data processing may involve transfer to countries outside the EU/EEA. We ensure adequate protection through:",
+          "measures": [
+            "EU Commission adequacy decisions",
+            "Standard Contractual Clauses (SCC)",
+            "Binding Corporate Rules",
+            "Additional technical and organizational measures"
+          ],
+          "links": {
+            "adequacy": "For more information on adequacy decisions: https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/adequacy-decisions_en",
+            "scc": "For Standard Contractual Clauses: https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc_en"
+          }
+        },
+        "dataDeletion": {
+          "title": "Data Deletion and Storage Duration",
+          "text": "Your personal data will be deleted or blocked as soon as the purpose of storage ceases to apply. Storage may also take place if:",
+          "periods": [
+            "Required by European or national legislation",
+            "Necessary for contract fulfillment",
+            "Required by legal retention periods",
+            "Necessary for legitimate business purposes"
+          ],
+          "retention": "Storage beyond these periods occurs only with your consent or if specifically permitted by law.",
+          "deletion": "If the storage purpose ceases to apply or a prescribed storage period expires, the personal data will be routinely blocked or deleted in accordance with statutory provisions."
+        },
+        "dataProvision": {
+          "title": "Provision of Personal Data",
+          "text": "The provision of personal data is partly required by law (e.g., tax regulations) or may result from contractual provisions. Failure to provide the data may result in the inability to conclude a contract or receive certain services."
+        },
+        "dataOrigin": {
+          "title": "Source of Data",
+          "text": "Unless otherwise specified, we collect personal data directly from the data subject. In some cases, we may receive data from third parties (e.g., business partners, public directories)."
+        },
+        "automatedDecision": {
+          "title": "Automated Decision-Making",
+          "text": "We do not use automated decision-making or profiling unless specifically disclosed in individual processing activities."
+        }
+      }
     },
-    "security": {
-      "title": "Data Security",
-      "text": "The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your personal data, we cannot guarantee its absolute security."
+    "section3": {
+      "title": "4. Provision of Website and Log Files",
+      "subsections": {
+        "description": {
+          "title": "Description of Data Processing",
+          "text": "Each time our website is accessed, our system automatically collects data and information from the accessing computer system:",
+          "items": [
+            "IP address of the requesting computer",
+            "Date and time of access",
+            "Name and URL of the retrieved file",
+            "Website from which access is made (referrer URL)",
+            "Browser used and operating system",
+            "Name of your internet service provider"
+          ],
+          "storage": "This data is stored in our system's log files. This data is not stored together with other personal data of the user."
+        },
+        "legalBasis": {
+          "title": "Legal Basis",
+          "text": "The temporary storage of data and log files is based on Art. 6(1)(f) GDPR. We have a legitimate interest in ensuring the functionality and security of our website."
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "The temporary storage of the IP address is necessary to enable delivery of the website to the user's computer. The storage in log files ensures the functionality and optimization of the website, as well as the security of our information technology systems."
+        },
+        "duration": {
+          "title": "Duration of Storage",
+          "text": "The data is deleted as soon as it is no longer necessary to achieve the purpose of its collection. For data collection for website provision, this is when the respective session ends. Log files are deleted after 7 days."
+        },
+        "objection": {
+          "title": "Possibility of Objection",
+          "text": "The collection of data for website provision and storage in log files is essential for the operation of the website. Consequently, there is no possibility for users to object."
+        }
+      }
     },
-    "rights": {
-      "title": "Your Data Protection Rights",
-      "text": "Under GDPR, you have the following rights:",
-      "items": [
-        "The right to access your personal data",
-        "The right to rectification",
-        "The right to erasure",
-        "The right to restrict processing",
-        "The right to data portability",
-        "The right to object",
-        "Rights in relation to automated decision making and profiling"
-      ]
+    "section4": {
+      "title": "5. Use of Cookies",
+      "description": {
+        "text": "Our website uses cookies. Cookies are text files stored in or by the internet browser on the user's computer system.",
+        "purposes": "We use cookies to make our website more user-friendly. Some elements of our website require that the accessing browser can be identified even after a page change."
+      },
+      "cookieInfo": {
+        "text": "The following data is stored and transmitted in the cookies:",
+        "items": [
+          "Language settings",
+          "Session information",
+          "Login information",
+          "User preferences"
+        ]
+      },
+      "legalBasis": {
+        "text": "The legal basis for processing personal data using technically necessary cookies is Art. 6(1)(f) GDPR. For other cookies, we process data based on your consent according to Art. 6(1)(a) GDPR.",
+        "exceptions": [
+          "Technically necessary cookies: Art. 6(1)(f) GDPR",
+          "Analysis cookies: Art. 6(1)(a) GDPR (with consent)",
+          "Marketing cookies: Art. 6(1)(a) GDPR (with consent)"
+        ]
+      },
+      "duration": {
+        "text": "Cookies are stored on the user's computer and transmitted to our site. Therefore, you as a user have full control over the use of cookies. You can disable or restrict the transmission of cookies by changing your internet browser settings."
+      },
+      "details": {
+        "text": "You can configure your browser settings according to your preferences and decline the acceptance of third-party cookies or all cookies. Please note that you may not be able to use all features of this website if cookies are disabled.",
+        "additional": "We use a cookie consent management tool that allows you to give or withdraw your consent for different categories of cookies."
+      }
     },
-    "contact": {
-      "title": "Contact Us",
-      "text": "If you have any questions about this Privacy Policy, please contact us:",
-      "items": [
-        "By email: info@capsula.ai",
-        "By phone: +49 421 37703470",
-        "By mail: Martinistraße 62-66, 28195 Bremen, Germany"
-      ]
+    "section5": {
+      "title": "5. Newsletter",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "When you subscribe to our newsletter, we collect and process the following data:",
+          "items": [
+            "Email address (required)",
+            "Name (optional)",
+            "Company name (optional)",
+            "Position (optional)",
+            "Industry sector (optional)"
+          ],
+          "doubleOptIn": "We use a double opt-in procedure for newsletter subscriptions. After registering, you will receive a confirmation email with a link to confirm your subscription. This confirmation is required to prevent abuse of email addresses.",
+          "tracking": "Our newsletter may contain tracking pixels that allow us to analyze if and when you open an email and which links you click on. This data is used to optimize our newsletter content."
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing of your email address for newsletter delivery is based on your consent according to Art. 6(1)(a) GDPR. The tracking of newsletter usage is based on our legitimate interests according to Art. 6(1)(f) GDPR to optimize our communication."
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "We use your email address to send you our newsletter. Additional data is used to personalize the newsletter and prevent misuse of our services. The tracking data helps us understand how our newsletters are used and how we can improve them."
+        },
+        "duration": {
+          "title": "Duration of Storage",
+          "text": "We store your data for as long as you are subscribed to our newsletter. You can unsubscribe at any time using the link in the newsletter or by contacting us.",
+          "deletion": "After unsubscribing, your email address will be stored in a blocklist to ensure we respect your unsubscribe request. Other data will be deleted unless legal retention periods require continued storage."
+        },
+        "recipient": {
+          "title": "Recipients of Data",
+          "text": "For sending newsletters, we use specialized newsletter service providers who act as our processors under Art. 28 GDPR. We have concluded data processing agreements with these providers to ensure the protection of your data."
+        }
+      }
+    },
+    "section6": {
+      "title": "6. Download of Whitepapers and Other Documents",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "To access our whitepapers and downloadable documents, you need to provide certain data and consent to marketing communications. We process:",
+          "items": [
+            "First and last name",
+            "Email address",
+            "Company name (if applicable)",
+            "Position (if applicable)",
+            "Additional information provided during consent"
+          ]
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The data processing for providing the whitepaper is based on contract performance (Art. 6(1)(b) GDPR). The subsequent marketing communication is based on your consent (Art. 6(1)(a) GDPR)."
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "We process your data to:",
+          "items": [
+            "Provide you with the requested document",
+            "Verify your identity",
+            "Send you marketing communications (with consent)",
+            "Analyze the use of our documents"
+          ]
+        },
+        "duration": {
+          "title": "Duration of Storage",
+          "text": "We store your data until you withdraw your consent or object to the processing. The withdrawal of consent does not affect the lawfulness of processing based on consent before its withdrawal."
+        },
+        "recipient": {
+          "title": "Recipients of Data",
+          "text": "Your data may be shared with:",
+          "items": [
+            "Our CRM system provider",
+            "Our email marketing service provider",
+            "Our analytics service providers"
+          ]
+        }
+      }
+    },
+    "section7": {
+      "title": "7. Contact Form and Email Contact",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "When you use our contact form, we collect the following data:",
+          "items": [
+            "First and last name",
+            "Email address",
+            "Phone number",
+            "Company name",
+            "Position",
+            "Country",
+            "Message content"
+          ],
+          "additional": "When you contact us by email, we store your email address and any information you provide in your message."
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing of data from the contact form and email communications is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR)",
+            "Our legitimate interests in responding to your inquiry (Art. 6(1)(f) GDPR)",
+            "Contract performance if your message relates to a contract (Art. 6(1)(b) GDPR)"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "We process your data to:",
+          "items": [
+            "Handle your inquiry",
+            "Communicate with you",
+            "Provide requested information",
+            "Process any resulting business relationships"
+          ]
+        },
+        "duration": {
+          "title": "Duration of Storage",
+          "text": "We store your data until your inquiry is completely processed and any legal retention periods have expired. For regular contact inquiries, we review and delete data after 6 months if no ongoing business relationship exists."
+        },
+        "recipient": {
+          "title": "Recipients of Data",
+          "text": "Your data may be processed by:",
+          "items": [
+            "Our internal customer service team",
+            "Relevant department employees",
+            "Our CRM system provider"
+          ]
+        }
+      }
+    },
+    "section8": {
+      "title": "8. Surveys and Use of Typeform",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use Typeform to conduct surveys and publish survey results. The following data may be processed:",
+          "items": [
+            "Your (anonymized) survey responses",
+            "Contact information (if provided)",
+            "Company name (if provided)",
+            "Technical data (IP address, browser type, device information)",
+            "Usage data (completion time, interaction patterns)"
+          ],
+          "provider": "This service is provided by Typeform SL, Carrer Bac de Roda, 163, 08018 Barcelona, Spain."
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR) for survey participation",
+            "Our legitimate interests (Art. 6(1)(f) GDPR) for anonymous survey analysis",
+            "Contract performance (Art. 6(1)(b) GDPR) when surveys are part of our services"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "We process the data for:",
+          "items": [
+            "Conducting and analyzing surveys",
+            "Improving our services based on feedback",
+            "Creating anonymized statistics",
+            "Contacting you regarding your responses (with consent)"
+          ]
+        },
+        "duration": {
+          "title": "Duration of Storage",
+          "text": "Survey data is stored until:",
+          "items": [
+            "The purpose of the survey is fulfilled",
+            "You request deletion of your data",
+            "You withdraw your consent",
+            "Maximum 2 years for anonymous statistical data"
+          ]
+        },
+        "recipient": {
+          "title": "Recipients of Data",
+          "text": "Your data may be processed by:",
+          "items": [
+            "Typeform as our data processor",
+            "Our internal analytics team",
+            "Data analysis service providers"
+          ],
+          "thirdCountry": "Data transfer to Spain is covered by EU data protection standards."
+        }
+      }
+    },
+    "section9": {
+      "title": "9. Application Process Data Processing",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "When you apply through our online application portal or via email, we process the following personal data:",
+          "items": [
+            "First and last name",
+            "Email address",
+            "Phone number",
+            "Possible start date",
+            "Salary expectations",
+            "Application documents (CV, certificates, etc.)",
+            "Education and qualification details",
+            "Work experience and references",
+            "Additional information provided in your application"
+          ]
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing of application data is based on:",
+          "items": [
+            "Steps prior to entering into a contract (Art. 6(1)(b) GDPR)",
+            "Your consent (Art. 6(1)(a) GDPR) for inclusion in the talent pool",
+            "Compliance with legal obligations (Art. 6(1)(c) GDPR)",
+            "Our legitimate interests (Art. 6(1)(f) GDPR) for internal analysis"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "We process your application data for:",
+          "items": [
+            "Evaluating your application",
+            "Communicating with you about your application",
+            "Fulfilling legal obligations",
+            "Defending against legal claims if necessary",
+            "Including you in our talent pool (with consent)"
+          ]
+        },
+        "duration": {
+          "title": "Duration of Storage",
+          "text": "We store application data as follows:",
+          "items": [
+            "6 months after rejection (standard period)",
+            "Up to 2 years with consent for talent pool",
+            "Longer if required by legal obligations or legal defense"
+          ],
+          "deletion": "After these periods, your data will be deleted unless you have explicitly consented to longer storage."
+        },
+        "recipient": {
+          "title": "Recipients of Data",
+          "text": "Your application data can be accessed by:",
+          "items": [
+            "HR department employees",
+            "Department heads and potential supervisors",
+            "Management for final decisions",
+            "Works council where legally required"
+          ],
+          "security": "All recipients are bound by confidentiality obligations."
+        }
+      }
+    },
+    "section10": {
+      "title": "10. Use of HubSpot",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use HubSpot for our CRM, email marketing, contact management, and reporting. The following data may be processed:",
+          "items": [
+            "Contact information (name, email, phone)",
+            "Company information",
+            "Communication history",
+            "Usage data and interactions",
+            "Technical data (IP address, browser information)",
+            "Marketing preferences"
+          ],
+          "provider": "HubSpot, Inc., 25 First Street, 2nd Floor, Cambridge, MA 02141, USA"
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR) for marketing communications",
+            "Contract performance (Art. 6(1)(b) GDPR) for customer relationships",
+            "Our legitimate interests (Art. 6(1)(f) GDPR) for business analytics"
+          ],
+          "thirdCountry": "Data transfer to the USA is secured through EU Standard Contractual Clauses and additional guarantees under the EU-US Data Privacy Framework."
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "We use HubSpot for:",
+          "items": [
+            "Managing customer relationships",
+            "Sending marketing communications",
+            "Analyzing website usage",
+            "Optimizing our services",
+            "Creating business reports"
+          ]
+        },
+        "duration": {
+          "title": "Duration of Storage",
+          "text": "We store your data in HubSpot:",
+          "items": [
+            "As long as necessary for business purposes",
+            "Until you withdraw your consent",
+            "According to legal retention periods"
+          ],
+          "deletion": "You can request deletion of your data at any time."
+        },
+        "recipient": {
+          "title": "Recipients of Data",
+          "text": "Your data in HubSpot can be accessed by:",
+          "items": [
+            "Our sales and marketing team",
+            "Customer service employees",
+            "HubSpot as our data processor",
+            "Authorized service providers"
+          ],
+          "security": "All data processing is subject to strict security measures and data protection agreements."
+        },
+        "rights": {
+          "title": "Your Rights",
+          "text": "Regarding HubSpot data processing, you have the right to:",
+          "items": [
+            "Withdraw your consent at any time",
+            "Object to processing based on legitimate interests",
+            "Request information about your stored data",
+            "Request correction or deletion of your data"
+          ]
+        }
+      }
+    },
+    "section11": {
+      "title": "11. Use of Google Analytics",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use Google Analytics to analyze user behavior on our website. The following data is processed:",
+          "items": [
+            "IP address (anonymized)",
+            "Device information (browser, operating system, screen resolution)",
+            "Approximate location (country, region)",
+            "Pages visited and click behavior",
+            "Time spent and interactions",
+            "Referrer URL (which page the user came from)"
+          ],
+          "provider": "Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland"
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR)",
+            "Our legitimate interests (Art. 6(1)(f) GDPR) to analyze and improve our online services"
+          ],
+          "thirdCountry": "Data transfer to the USA is based on EU Standard Contractual Clauses and additional guarantees under the EU-US Data Privacy Framework."
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "The data is processed for:",
+          "items": [
+            "Analysis of user behavior",
+            "Website optimization",
+            "Measuring the effectiveness of our online presence",
+            "Creating statistics",
+            "Improving our services"
+          ]
+        },
+        "duration": {
+          "title": "Duration of Storage",
+          "text": "The data is stored:",
+          "items": [
+            "For a maximum of 14 months",
+            "Until you withdraw your consent",
+            "Until you delete your cookies"
+          ]
+        },
+        "settings": {
+          "title": "Your Setting Options",
+          "text": "You can:",
+          "items": [
+            "Prevent collection by Google Analytics by disabling cookies",
+            "Install the browser add-on to disable Google Analytics",
+            "Adjust your cookie settings in our cookie banner"
+          ]
+        }
+      }
+    },
+    "section12": {
+      "title": "12. Use of Google Ads Conversion Tracking and Google Consent Mode",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use Google Ads Conversion Tracking and Google Consent Mode. The following data is processed:",
+          "items": [
+            "Conversion events (e.g., form submissions, downloads)",
+            "Device information",
+            "IP address (anonymized)",
+            "Time of conversion",
+            "Cookie information"
+          ]
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR)",
+            "Our legitimate interests (Art. 6(1)(f) GDPR) to analyze advertising effectiveness"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "The data is processed for:",
+          "items": [
+            "Measuring the success of our advertising campaigns",
+            "Optimizing ad targeting",
+            "Improving advertising effectiveness",
+            "Cost-benefit analysis of our marketing measures"
+          ]
+        }
+      }
+    },
+    "section13": {
+      "title": "13. Use of Google Optimize",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use Google Optimize for A/B testing and website optimization. The following data is processed:",
+          "items": [
+            "Page views and click behavior",
+            "Device information",
+            "IP address (anonymized)",
+            "Test variant assignment",
+            "Interaction data"
+          ]
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR)",
+            "Our legitimate interests (Art. 6(1)(f) GDPR) to improve our online services"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "The data is processed for:",
+          "items": [
+            "Conducting A/B tests",
+            "Optimizing user-friendliness",
+            "Improving website performance",
+            "Analyzing user behavior"
+          ]
+        }
+      }
+    },
+    "section14": {
+      "title": "14. Use of Google Tag Manager",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use Google Tag Manager to manage website tags. The Tag Manager itself does not process personal data but enables the implementation of other tracking tools."
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on our legitimate interests (Art. 6(1)(f) GDPR) for efficient management and integration of various tools and tracking services."
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "The Tag Manager is used for:",
+          "items": [
+            "Managing website tags",
+            "Integrating tracking tools",
+            "Optimizing website performance",
+            "Simplifying technical implementation"
+          ]
+        }
+      }
+    },
+    "section15": {
+      "title": "15. Use of Google Maps",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use Google Maps to display interactive maps. The following data is processed:",
+          "items": [
+            "IP address",
+            "Location data (if enabled by user)",
+            "Device information",
+            "Usage statistics"
+          ]
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR)",
+            "Our legitimate interests (Art. 6(1)(f) GDPR) to provide map functionality"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "The integration is for:",
+          "items": [
+            "Displaying interactive maps",
+            "Showing our location",
+            "Providing route planning"
+          ]
+        }
+      }
+    },
+    "section16": {
+      "title": "16. Use of Google reCAPTCHA",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use Google reCAPTCHA to protect against spam and abuse. The following data is processed:",
+          "items": [
+            "IP address",
+            "Cookies",
+            "Mouse movements and clicks",
+            "Device information",
+            "Time spent and interactions"
+          ]
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR)",
+            "Our legitimate interests (Art. 6(1)(f) GDPR) to protect against abuse"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "reCAPTCHA is used for:",
+          "items": [
+            "Protection against spam in contact forms",
+            "Prevention of automated access",
+            "Ensuring website security"
+          ]
+        }
+      }
+    },
+    "section17": {
+      "title": "17. Use of Hotjar",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use Hotjar to analyze user behavior. The following data is processed:",
+          "items": [
+            "Device information",
+            "Mouse movements and clicks",
+            "Scroll behavior",
+            "Anonymized form inputs",
+            "Page interactions"
+          ],
+          "provider": "Hotjar Ltd., Level 2, St Julian's Business Centre, 3, Elia Zammit Street, St Julian's STJ 1000, Malta"
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR)",
+            "Our legitimate interests (Art. 6(1)(f) GDPR) to improve our online services"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "Hotjar is used for:",
+          "items": [
+            "Analyzing user behavior",
+            "Identifying usability issues",
+            "Optimizing user-friendliness",
+            "Improving user experience"
+          ]
+        }
+      }
+    },
+    "section18": {
+      "title": "18. Use of Wordfence",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use Wordfence for website security. The following data is processed:",
+          "items": [
+            "IP address",
+            "Access times",
+            "Pages visited",
+            "Browser technical information",
+            "Security-relevant events"
+          ]
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on our legitimate interests (Art. 6(1)(f) GDPR) to protect our website against attacks and abuse."
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "Wordfence is used for:",
+          "items": [
+            "Protection against hacking attempts",
+            "Malware detection",
+            "Blocking suspicious IP addresses",
+            "Ensuring website integrity"
+          ]
+        }
+      }
+    },
+    "section19": {
+      "title": "19. Use of Contact Form 7",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use Contact Form 7 for our contact forms. The following data is processed:",
+          "items": [
+            "Name",
+            "Email address",
+            "Subject",
+            "Message content",
+            "Additional information provided voluntarily"
+          ]
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR)",
+            "Steps prior to entering into a contract (Art. 6(1)(b) GDPR)",
+            "Our legitimate interests (Art. 6(1)(f) GDPR) to process inquiries"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "Contact Form 7 is used for:",
+          "items": [
+            "Enabling contact",
+            "Processing inquiries",
+            "Communication with interested parties"
+          ]
+        }
+      }
+    },
+    "section20": {
+      "title": "20. Use of Facebook Pixel",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use Facebook Pixel on our website. The following data is processed:",
+          "items": [
+            "IP address (anonymized)",
+            "Device information",
+            "Pages visited",
+            "Conversion events (e.g., newsletter signups)",
+            "Interactions with advertisements"
+          ],
+          "provider": "Meta Platforms Ireland Limited, 4 Grand Canal Square, Dublin 2, Ireland"
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR)",
+            "Our legitimate interests (Art. 6(1)(f) GDPR) to analyze and optimize our advertising measures"
+          ],
+          "thirdCountry": "Data transfer to the USA is based on EU Standard Contractual Clauses and additional guarantees under the EU-US Data Privacy Framework."
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "Facebook Pixel is used for:",
+          "items": [
+            "Measuring advertising effectiveness",
+            "Optimizing advertisements",
+            "Analyzing user behavior",
+            "Creating target groups for advertising measures"
+          ]
+        }
+      }
+    },
+    "section21": {
+      "title": "21. Use of Borlabs Cookie Manager",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We use Borlabs Cookie Manager to manage cookie consents. The following data is processed:",
+          "items": [
+            "Cookie settings",
+            "Time of consent",
+            "Device information",
+            "IP address (anonymized)"
+          ]
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR)",
+            "Our legal obligation to obtain cookie consents (Art. 6(1)(c) GDPR)"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "Borlabs Cookie Manager is used for:",
+          "items": [
+            "Managing cookie consents",
+            "Documenting consents",
+            "Implementing GDPR requirements",
+            "User-friendly control of cookie preferences"
+          ]
+        }
+      }
+    },
+    "section22": {
+      "title": "22. Facebook Fan Page",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We operate a Facebook Fan Page. The following data is processed when using it:",
+          "items": [
+            "Usage behavior",
+            "Demographic data",
+            "Page interactions",
+            "Location data",
+            "Device information"
+          ]
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Our legitimate interests (Art. 6(1)(f) GDPR) to communicate with interested parties",
+            "Joint controllership with Meta Ireland according to Art. 26 GDPR"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "The Facebook Fan Page is used for:",
+          "items": [
+            "Communication with interested parties",
+            "Information about our services",
+            "Analysis of page usage",
+            "Optimization of our social media presence"
+          ]
+        }
+      }
+    },
+    "section23": {
+      "title": "23. LinkedIn Company Page",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We operate a LinkedIn Company Page. The following data is processed:",
+          "items": [
+            "Profile information",
+            "Page interactions",
+            "Professional information",
+            "Usage statistics"
+          ],
+          "provider": "LinkedIn Ireland Unlimited Company, Wilton Place, Dublin 2, Ireland"
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Our legitimate interests (Art. 6(1)(f) GDPR) for professional networking",
+            "Joint controllership with LinkedIn Ireland according to Art. 26 GDPR"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "The LinkedIn Page is used for:",
+          "items": [
+            "Professional networking",
+            "Company presentation",
+            "Employee recruitment",
+            "Page usage analysis"
+          ]
+        }
+      }
+    },
+    "section24": {
+      "title": "24. YouTube",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We operate a YouTube channel and embed videos. The following data is processed:",
+          "items": [
+            "IP address",
+            "Device information",
+            "Playback behavior",
+            "Video interactions",
+            "YouTube account information (if logged in)"
+          ],
+          "provider": "Google Ireland Limited, Gordon House, Barrow Street, Dublin 4, Ireland"
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Your consent (Art. 6(1)(a) GDPR)",
+            "Our legitimate interests (Art. 6(1)(f) GDPR) to provide video content"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "YouTube is used for:",
+          "items": [
+            "Presentation of video content",
+            "Information about our services",
+            "Video usage analysis",
+            "Optimization of our content offering"
+          ]
+        }
+      }
+    },
+    "section25": {
+      "title": "25. TikTok",
+      "subsections": {
+        "description": {
+          "title": "Description and Scope of Data Processing",
+          "text": "We operate a TikTok account. The following data is processed:",
+          "items": [
+            "Usage behavior",
+            "Content interactions",
+            "Device information",
+            "TikTok account information (if logged in)"
+          ],
+          "provider": "TikTok Technology Limited, 10 Earlsfort Terrace, Dublin, D02 T380, Ireland"
+        },
+        "legalBasis": {
+          "title": "Legal Basis for Processing",
+          "text": "The processing is based on:",
+          "items": [
+            "Our legitimate interests (Art. 6(1)(f) GDPR) for social media communication",
+            "Joint controllership with TikTok Ireland according to Art. 26 GDPR"
+          ]
+        },
+        "purpose": {
+          "title": "Purpose of Processing",
+          "text": "TikTok is used for:",
+          "items": [
+            "Short video presentation",
+            "Community interaction",
+            "Marketing and branding",
+            "Reach analysis"
+          ]
+        }
+      }
+    },
+    "section26": {
+      "title": "26. Rights of the Data Subject",
+      "subsections": {
+        "description": {
+          "title": "Overview of Your Rights",
+          "text": "As a data subject, you have the following rights:",
+          "items": [
+            "Right to access (Art. 15 GDPR)",
+            "Right to rectification (Art. 16 GDPR)",
+            "Right to erasure (Art. 17 GDPR)",
+            "Right to restriction of processing (Art. 18 GDPR)",
+            "Right to data portability (Art. 20 GDPR)",
+            "Right to object (Art. 21 GDPR)",
+            "Right to withdraw consent (Art. 7(3) GDPR)",
+            "Right to lodge a complaint with a supervisory authority (Art. 77 GDPR)"
+          ]
+        },
+        "exercise": {
+          "title": "Exercising Your Rights",
+          "text": "You can exercise your rights at any time by:",
+          "items": [
+            "Contacting us via email at datenschutz@statworx.com",
+            "Sending a written notice to our postal address",
+            "Using the contact options provided in this privacy policy"
+          ]
+        },
+        "complaint": {
+          "title": "Right to Lodge a Complaint",
+          "text": "You have the right to lodge a complaint with a data protection supervisory authority about our processing of your personal data. The competent supervisory authority is:",
+          "authority": "The Hessian Commissioner for Data Protection and Freedom of Information, PO Box 3163, 65021 Wiesbaden, Germany"
+        }
+      }
+    },
+    "section27": {
+      "title": "27. Changes to the Privacy Policy",
+      "subsections": {
+        "description": {
+          "title": "Updates",
+          "text": "We reserve the right to update this privacy policy as needed to adapt it to changed processing situations or legal requirements.",
+          "items": [
+            "Regular review for currentness",
+            "Adaptation to legal or technical changes",
+            "Information about significant changes",
+            "Validity of the current version"
+          ]
+        },
+        "notification": {
+          "title": "Notification of Changes",
+          "text": "We will inform you appropriately about significant changes. The current version of the privacy policy is always available on our website."
+        },
+        "validity": {
+          "title": "Validity",
+          "text": "This privacy policy is valid from May 2024. Previous versions can be requested from us if needed."
+        }
+      }
     }
   }
 } 
